@@ -610,5 +610,38 @@ export const modules = [
         "charCount": 533
       }
     ]
+  },
+  {
+    "id": "mod10",
+    "name": "跨行业桥接 Cross-Industry Bridge",
+    "color": "#0F766E",
+    "icon": "🌉",
+    "description": "Foxx的NVIDIA GPU/手机OEM经验如何translate到Bitmain矿机销售",
+    "cards": [
+      {
+        "id": "m10-1",
+        "num": 48,
+        "title": "你的背景里有什么让你为这个职位做好了准备？/ What in your background makes you ready for this role?",
+        "answer": "老实说，我过去三年其实就是在卖 Bitmain 现在客户面前正在 converge 的两半 accelerated compute conversation。\n\n在 Foxx 我卖 NVIDIA 硬件 — RTX 5090 SKU 进 prosumer 和工作站渠道，然后 HGX H100、H200、B200 系统进 AI infrastructure 客户。和 Bitmain 今天面对的 buyer persona 完全一样：CFO、infrastructure VP、compute 负责人。Conversation 结构也一样：5 年 TCO、power per square foot、lead time、allocation、financing。\n\n卖 H200 SXM5 baseboard 学到的是：deal 不是靠 FP8 throughput 赢的 — 是靠客户 facility 能不能 support 8-GPU baseboard 的 5.6 kW、他们有没有下一代 cold-aisle 和 DLC infrastructure、以及你能不能 credibly model 5 年 economics 在他们的 power cost 下。这正好就是 S23 Hydro 的 pitch — 只是客户从企业 AI 买家换成 MARA 或 Cipher，metric 从 TFLOPS per watt 换成 J/TH。\n\n第三段 connect 的经历：我在 Foxx 还做了自己的手机品牌。从 MTK6739 chipset 一直到 LPDDR memory chip、band 认证、FCC compliance、China-origin 关税敞口，整个 BOM 我都 own 过。这就是和 public miner 谈 Bitmain 马来西亚 diversification 和 2026 美国工厂时，rep 应该具备的 supply-chain literacy。\n\n我不是从不相关的行业 pivot 过来。我是把三段 adjacent 的 skill set consolidate 成一个 job。",
+        "qtype": "B",
+        "charCount": 920
+      },
+      {
+        "id": "m10-2",
+        "num": 49,
+        "title": "跟我讲讲你怎么向客户解释 hydro cooling — 它和 GPU 那边的液冷有什么区别？/ Walk me through how you'd explain hydro cooling to a customer",
+        "answer": "我会先 acknowledge 客户已经知道的，因为 2026 大多数 institutional 买家都在 AI conversation 里待过 — NVIDIA 给 H200 和 Blackwell 的 DLC pitch 他们听过。\n\n所以我开场会说：\"好消息是 hydro cooling 不再是 experimental 的了。NVIDIA GB200 NVL72 整 rack 是 120 kW 纯 liquid，因为 air 物理上没法散这个密度的热。Bitmain S23 Hydro 3U 整 cabinet 154 kW，同样的物理，相似的 facility footprint。但有三个 ASIC 这边更 favorable 的 differentiator — workload 是 steady-state 不像 training 那样 spike，coolant chemistry 容忍度更高，还有出水温度可以推到 50°C，dry cooler 就够了，省 chiller。\"\n\n然后 specific 起来。Hydro 赢 TCO 三个 reason：\n\n【效率】\n\nS23 Hydro 9.5 J/TH，对比 air-cooled S23 是 11 J/TH。客户 $0.05/kWh、100 MW 的 site，1.5 J/TH 的 gap 一年大概 $6.5M power cost 差距。\n\n【密度】\n\n16.24 PH/s per 42U cabinet，100 MW site 比 air 少约 40% 占地，real estate 和 ERCOT interconnect 成本直接砍下来。\n\n【寿命】\n\n芯片温度 45–60°C 对比 air 的 75–85°C。无风扇意味着无 fan failure，这是今天 S19 fleet 的 #1 service item。Bitmain 配 7 年 hydro lifecycle warranty。\n\nTrade-off 我会 honest 地讲：客户需要 closed-loop infrastructure with dry cooler、deionized water 管理、conductivity 监控 <100 μS/cm。冷气候要配 PTC 加热器，因为 S23 Hydro 入水低于 20°C 启动不了 — 这点和 GPU 反过来，GPU 任何温度都能 boot。每台 capex 也更高。\n\n最后 close：\"让我用你的 power cost 和 hashprice scenario 跑个 5 年 NPV。数字来选 SKU — 如果你的 math 不 support hydro，我不会硬推。\"\n\n这是我卖 H200 air vs liquid configuration 给 AI 客户时一样的 posture。比 spec-sheet pitch 建 trust 快得多。",
+        "qtype": "T",
+        "charCount": 1250
+      },
+      {
+        "id": "m10-3",
+        "num": 50,
+        "title": "你的手机代工经验怎么 translate 到 Bitmain？/ How does your phone OEM experience translate to Bitmain?",
+        "answer": "三件事 concrete 地 transfer。\n\n第一，BOM 和 supply chain literacy。\n\n我在 Foxx own 过整个手机 BOM — MTK6739 SoC、LPDDR4X memory、eMMC 存储、PMIC、baseband modem、RF front-end、display、casing。这就是和 public miner 的 procurement team 谈话时需要的 component-thinking — 为什么 Bitmain 的 TSMC 3nm allocation 重要、为什么 ANTMINER hashboard 上的 memory 和 wafer 本身是不同的 supply chain、为什么 100K 单 RFQ 分三个季度交货取决于半年前的 substrate availability。\n\n第二，China-origin 关税和认证经验。\n\n我经历过 Section 301 关税、FCC 和 PTCRB 认证流程、port-of-entry 物流。直接对应 Bitmain 通过马来西亚做的 tariff hedging 和 2026 美国工厂的 narrative。我可以和 CFO 谈这个话题，不需要 deck。\n\n第三，ODM model 熟悉度。\n\nBitmain 设计、TSMC 制造、合同 integrator 组装 — 和手机行业的闻泰 (Wingtech)、华勤 (Huaqin) 是同一个 model。我做过这种安排的客户和 integrator 两边，懂 delivery commitment 背后的 operational reality。\n\nTranslate 不是完美的 — 手机是 consumer SKU，矿机是 industrial — 但底层那个\"通过复杂的亚洲 supply chain 把硬件产品交到美国客户手里\"的肌肉，正是 Bitmain 需要的。",
+        "qtype": "B",
+        "charCount": 836
+      }
+    ]
   }
 ];
