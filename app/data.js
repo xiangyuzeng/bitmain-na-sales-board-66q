@@ -1,4 +1,4 @@
-// Bitmain北美机构销售 · 面试答题板 · 66题
+// Bitmain北美机构销售 · 面试答题板 · 57题
 // 9模块 · 行为STAR · 项目深挖 · 行业技术 · 销售策略 · 反问环节
 
 export const QTYPE = {
@@ -40,22 +40,6 @@ export const modules = [
         "answer": "我从2017年开始关注加密货币行业，自2017年起个人持有BTC和ETH。我不是日内交易者，是长期持有者——经历过2018和2022两次熊市没有恐慌卖出，这种定力对我思考挖矿行业很重要。\n\n对挖矿行业的深度关注从2023年开始，有两个触发点。第一是Foxx开始收到一些零散的小矿场定制冷却设备的RFQ，让我接触到矿场基础设施的需求。第二是减半叙事的推进，促使我系统性研究CoinShares和Luxor Hashrate Index的行业报告。\n\n过去18个月我投入时间研究的具体内容：\n\n挖矿经济学。 Hashprice从2025年10月峰值崩塌到现在的$36/PH/day，这背后的供需关系、难度调整机制、电费-算力-BTC价格的三角博弈。\n\nASIC效率曲线。 从2016年S9的100+ J/TH到S23 Hydro的9.5 J/TH——这是十年90倍的效率提升，决定了整个行业的替换周期。\n\n公众矿企的财务结构。 过去四个季度的MARA、RIOT、CLSK、CIFR、IREN的10-Q，机队构成、capex指引、hashrate目标、BTC库存变化。\n\n北美能源市场。 ERCOT demand response机制，RIOT 2023年夏天单月$3000万DR收入，stranded gas和可再生能源曲线，都是矿场选址的核心变量。\n\n行业政策。 特朗普Liberation Day关税对中国原产挖矿设备的25-35%实际税负，Bitmain/MicroBT/Canaan的美国建厂应对，Elizabeth Warren对中国矿机的政治施压。\n\nAI转型剧本。 Core Scientific的CoreWeave协议、IREN的微软$97亿HPC、CleanSpark的890 MW Texas混合建设——这些都是当前行业最重要的战略信号。\n\n我不会自称有在Foundry或Luxor工作过三年的人那种深度。但差距是以月计的沉浸式学习，不是以年计的能力鸿沟。",
         "qtype": "T",
         "charCount": 836
-      },
-      {
-        "id": "m1-4",
-        "num": 4,
-        "title": "薪资期望和出差承受度",
-        "answer": "【薪资】\n\n总包预期：$180K–$220K区间。结构上希望底薪+提成+年度奖金的组合，提成可以做大头，我对自己的pipeline建设有信心。\n\n参考点：\n\n当前底薪：$150K出头\n\n好年景总包：$200K出头\n\nBitmain对应：底薪持平或略高，提成上浮空间跟着北美收入和单笔交易规模走\n\n谈判态度：我不执着于具体的底薪/提成比例。我看的是OTE和顶级表现者的真实拿到手是多少。如果Bitmain顶级rep做到$400K-$500K，那比例怎么切对我都OK。\n\n【出差】\n\n60%+完全没问题。\n\n现状参考：目前Foxx岗位大约40%出差，主要在浙江工厂、美国零售客户、CES/Computex这样的大型展会之间。再加20%是节奏问题不是生活方式问题。\n\nBitmain预期出差地图：\n\nTexas（Rockdale、Corsicana）：MARA、RIOT、CleanSpark矿场所在地，应该是访问最频繁的地区\n\nGeorgia / Dakota / Wyoming：CIFR、TeraWulf、Iris Energy的能源矿场\n\nNew York / SF Bay：对冲基金、F1000总部会议\n\n行业大型活动：Bitcoin 2026 Vegas、Mining Disrupt Miami、WDMS\n\n中国HQ：每季度1-2次和HQ做季度回顾、产品roadmap同步\n\n节奏验证：我在Foxx做过两年\"一周出差一周在家\"的节奏，T-Mobile项目期间连续6周每周飞Bellevue，都没有问题。家里也支持。",
-        "qtype": "B",
-        "charCount": 661
-      },
-      {
-        "id": "m1-5",
-        "num": 5,
-        "title": "你目前在谈的其他机会？入职时间如何安排？",
-        "answer": "【在谈机会】\n\n老实告诉你，我目前确实在谈另外两个机会，都在二轮阶段还没有offer：\n\n一家美国本土ICT分销商的类似BD岗位\n\n一家支付公司的企业销售岗位\n\n但Bitmain是我的第一选择，原因我前面已经说过——行业地位、技术挑战、能力迁移度。如果拿到有竞争力的offer，我会立即接受并主动退出其他两个流程。我不是在用Bitmain做杠杆，也不会用其他offer来压价。\n\n【入职时间】\n\n标准方案：给Foxx两周的干净交接，第15天报到。\n\n两周内我可以做到：\n\n现有客户pipeline的书面handover文档\n\nT-Mobile、Best Buy等关键客户向接手的同事正式介绍\n\n未结案的合同/订单进度同步给团队\n\n加速方案：如果Bitmain有迫切需要——比如某个大型展会临近、或者要赶在Q1末关一个大客户的kickoff——我可以压缩到一周，交接稍微赶一点但没问题。\n\n推荐节奏：两周是更负责任的方案。我不希望用一个不干净的离职在新公司留下\"为了赶进度抛弃前雇主\"的印象——这种印象在销售岗反而是减分项。\n\n【时间灵活度】\n\n签约后到入职的时间窗口我可以用来做几件事：读完Bitmain产品spec sheets、补完top 10公众矿企最新季报、提前画几个目标账户的account map。这样第一天进公司就能直接进入对话，不用花两周\"找文档\"。",
-        "qtype": "B",
-        "charCount": 583
       }
     ]
   },
@@ -352,22 +336,6 @@ export const modules = [
       },
       {
         "id": "m6-13",
-        "num": 36,
-        "title": "入职3个月pipeline只有$8M而quota是$30M/quarter。怎么办？",
-        "answer": "第一步不是panic — 是诊断。\n\n第1周。Audit. $8M里有什么，怎么build的，realistic吗，什么timeline。Root cause：previous rep left thin？Wrong accounts？Inefficient process？先找到。\n\n第1-2周。Target list rebuild. 50账户：一线公众矿企、二线私营加数据中心、handful of strategic基金加F1000关系。优先top 20。\n\n第2-4周。激进top-of-funnel. 三个parallel channel：同事和network的warm intros、行业event存在、cold-but-high-quality outreach starting with top 20。目标：第四周末30个新conversation in motion。\n\n新rep的第一个quarter是pipeline build，不是closed revenue。 懂这个的management让rep ramp。不懂的是organization的red flag。第一周我会clearly communicate这个framing。",
-        "qtype": "S",
-        "charCount": 531
-      },
-      {
-        "id": "m6-14",
-        "num": 37,
-        "title": "私营矿企持有我们5,000台机器申请破产。你怎么办？",
-        "answer": "三条线：operational, commercial, relational。平行跑。\n\nOperational — 前72小时。\n\nConfirm with Bitmain credit和legal我们的exposure。AR balance，unpaid O&M，equipment in transit，warranty commitments。Freeze未发货的shipments。\n\nIdentify破产trustee或DIP lender。他们现在控制estate。所有和客户团队conversation through他们。\n\nPreserve证据。Signed contracts、delivery documentation、O&M contracts。及时file proof of claim。\n\n决定是否继续O&M服务。Usually yes for paid-up contracts during 30-day grace period while estate decides assume or reject。停止服务可能trigger operational risk that降低estate value和damage我们brand。\n\nCommercial — 前两周.\n\nRelational — 全程.\n\n我不会做什么。 Grace period拒绝service。In press-visible ways aggressively sue。对团队 professional future just collapsed的人rude。行业小，these are multi-cycle relationships。",
-        "qtype": "S",
-        "charCount": 730
-      },
-      {
-        "id": "m6-15",
         "num": 38,
         "title": "顶级BTC客户想80% pivot到AI像Core Scientific。你fight还是support？",
         "answer": "五个原因，按优先级顺序。\n\n1. Pivot无论有没有我都在happen。 Boards基于capital structure、AI hosting economics、他们对BTC的view做这些decisions。一个rep talking他们out of it是overstating influence。我的工作是transition期间retain maximum wallet share，不是prevent transition。\n\n2. Partial BTC保留比total relationship loss更valuable。 如果他们80% AI和20% BTC，那20%仍然是$5-20M per year的S23 Hydro orders。如果我fight pivot和lose relationship entirely，我get zero。做他们的BTC partner for residual 20%比做他们的ex-partner for former 100%更好。\n\n5. Case study leverage. 一个在Bitmain硬件上build的successful BTC-to-AI hybrid是赢next五个conversations的reference。帮他们gracefully pivot，我已经built一个multi-year revenue stream beyond this account。\n\nInternally at Bitmain我会用的frame. 我们不再是BTC hardware公司。我们是compute infrastructure公司with two product lines。Fighting pivoting客户是Bitmain如何become irrelevant in three years。",
@@ -531,22 +499,6 @@ export const modules = [
       },
       {
         "id": "m9-2",
-        "num": 55,
-        "title": "公众矿企 vs 私营矿企采购 — 有什么不同？",
-        "answer": "【一句话】\n\n这是两种完全不同的销售动作——公众矿企靠process和patience赢，私营矿企靠network和speed赢。\n\n【公众矿企（MARA、RIOT、CLSK等）】\n\n决策模式：委员会驱动，季度预算周期\n\n决策人：COO + CFO + procurement，有时外部顾问参与\n\n采购流程：正式RFQ，预期Bitmain、MicroBT、有时Auradine的竞争报价\n\n法务深度：heavy审核，合同走3-5轮\n\n付款条款：典型30%定金 / 60%发货前 / 10%交付确认，USD wire\n\nTicket规模：$30M-$300M\n\n销售周期：3-9个月\n\nOutreach timing：可以利用10-Q披露的capex schedule，在funding events后timing pitch\n\n赢的关键：纪律——响应速度、准确时间线、clean paperwork、合规文档齐全\n\n常见陷阱：低估法务来回需要的时间，paperwork不专业被procurement直接淘汰\n\n【私营矿企（PE-backed、family office、混合运营商）】\n\n决策模式：创始人驱动\n\n决策人：通常1-2人——创始人 + COO\n\n采购流程：往往跳过formal RFQ，直接谈判\n\n法务深度：简化版——MSA可能就5-10页\n\n付款条款：更多变种——50/50、structured payments、偶尔有USDT请求\n\nTicket规模：$5M-$50M\n\n销售周期：4-6周（如果创始人被说服）到3个月\n\n风险因素：更小资产负债表、BTC回撤时更高cancellation风险\n\n赢的关键：网络——其他私营运营商的reference、在site planning阶段在场、条款灵活度\n\n常见陷阱：assume付款会按合同走，没有enforce hard deposits\n\n【对比表（一句话总结）】\n\n维度：公众矿企 / 私营矿企\n\n决策：委员会 / 创始人\n\n周期：3-9个月 / 4周-3个月\n\n关键武器：process + patience / network + speed\n\n付款风险：低（USD wire、合规） / 中-高（structure变化大）\n\n关系深度：rep × procurement / rep × 创始人\n\n【战术含义】\n\n强的rep用不同节奏并行跑两个动作。\n\n公众矿企：early Q季度start outreach、Q1-Q2推进、Q3-Q4 close\n\n私营矿企：随时机会出现就推、节奏快、能在公众矿企的slow gap里填收入\n\n70%时间给公众矿企（确定性收入），20%给私营矿企（速度补quota），10%给对冲基金/F1000（长期布局）。",
-        "qtype": "S",
-        "charCount": 1162
-      },
-      {
-        "id": "m9-3",
-        "num": 56,
-        "title": "对冲基金实际如何进入挖矿？",
-        "answer": "基金几乎从不自己运营矿场 — 运营负担超出他们mandate。三种入场路径。\n\n一、公众矿企股权。 基金买MARA、RIOT、CLSK股票。无直接Bitmain接触点，但基金的thesis影响估值，估值影响capex。跟踪谁long谁 — 重大仓位通常先于加速的buying。\n\n二、私募股权投资运营商或托管公司。 基金在私营运营商取$100M仓位，获得治理权。我对基金的pitch不是”买机器”。是“让我确保你portfolio公司的procurement团队与厂商拿到最优条款。” 定位Bitmain为capital stack的战略伙伴。\n\n三、通过托管的直接exposure。 Family office或基金买2,000台矿机在第三方facility托管。$3M-$10M tickets。高接触，经常介绍我们给其他成熟资金。\n\npitch。 情报优先，商业第二。“这是我在客户base看到的hashprice趋势和fleet economics。如果你想要直接exposure，这些是我们合作的托管伙伴。” 定位Bitmain为行业战略伙伴，不只是vendor。多年后pay off。",
-        "qtype": "S",
-        "charCount": 498
-      },
-      {
-        "id": "m9-4",
         "num": 57,
         "title": "F1000战略 — 哪些向量make sense？",
         "answer": "三种入口向量。\n\nBTC treasury公司。 MicroStrategy是先例。任何资产负债表上有BTC的F1000最终会问”我们是否也应该挖矿？“Bitmain卖垂直整合叙事。Semler Scientific和MSTR-inspired买家是目标。决策人：CFO、treasurer。\n\n能源集团。 有stranded flare gas的油气巨头、有curtailed renewables的公用事业、有spare capacity的数据中心REITs。比特币挖矿货币化otherwise-wasted能源。Exxon试点过flare gas挖矿。Occidental、Chevron、大型公用事业都是真实对话。决策人：corporate development或new ventures。\n\nHPC和hyperscalers。 微软、亚马逊、Meta大规模买compute。Sophon是载体。不同销售动作，更长周期，如果Bitmain要扩展超出纯挖矿战略上重要。\n\n方法。 我不会cold call F1000 CFO。我会通过有加密和AI practice的律所、投行、咨询公司。Warm intro是唯一efficient入口。我会把F1000内部定位为长期build而非短期收入，相应管理预期。",
@@ -554,7 +506,7 @@ export const modules = [
         "charCount": 557
       },
       {
-        "id": "m9-5",
+        "id": "m9-3",
         "num": 58,
         "title": "走一遍一个100,000-unit RFQ — 全周期",
         "answer": "100,000台S23 units在一个300 MW Texas greenfield。总ticket约$225M。\n\n第1-2周. Qualify. 和客户ops lead电话。300 MW不是一夜之间出现的。Substation建好了吗？ERCOT interconnect批准了吗？Commissioning时间线？电力合约签了吗，什么费率？这保护我不会build a proposal against一个不真实的site。\n\n第2-3周. Proposal. 和Bitmain产品一起pricing。100K units是顶级volume tier — 预期15-20%低于list。提议两个配置：S23风冷for capex效率，或S23+S23 Hydro mixed build for TCO效率，用客户电费做5年NPV和一系列hashprice scenarios。把Hydro选项framework为”2027-30周期的premium定位”。\n\n第4-6周. 技术DD. 客户工程要工厂访问、固件demo、O&M plan。协调区域服务团队和可能的新美国工厂。带一个类似部署的reference — CleanSpark或Cipher如果可以。\n\n第7-10周. 商务谈判. 定金条款、2-3个季度的分阶段delivery schedule（100K不一次性ship）、LD clauses、warranty specifics、O&M合约结构、BTC质押选项如果相关。Bitmain法务早期介入。这个阶段paperwork慢就kill deal。\n\n第11-14周. Execution. LC或wire instrument、按港口的shipping schedule、site deployment plan。平行workstream托管伙伴介绍如果客户感兴趣一部分用Bitmain-生态托管。\n\n第4-9个月. Delivery. 分阶段shipment、commissioning、O&M onboarding。我在delivery期间的工作是staying in the relationship so next RFQ comes back to Bitmain。前10,000 units成功部署是扩展order的foundation。\n\n关键纪律。 Deal不是在签字时done。Reorder依赖delivery和performance怎么走。我在install期间保持operational，不只是contract。",
@@ -562,7 +514,7 @@ export const modules = [
         "charCount": 1080
       },
       {
-        "id": "m9-6",
+        "id": "m9-4",
         "num": 59,
         "title": "在矿业大单谈判中支付条款典型什么样，你怎么谈？",
         "answer": "$10M+订单的标准机构结构。\n\n定金和timing。 30% on PO，60% on ready-to-ship，10% on delivery acceptance。对较小或较新买家，50/40/10或50/50。Lead time 60-120天取决于订单规模和production slot，但2026年末美国工厂output将为国内origin units压缩这个。\n\n支付工具。 公众矿企USD wire — Bitmain标准银行。有时候超大或国际订单用LC；我会推threshold以上的irrevocable LC保护Bitmain并signal seriousness。加密支付（USDT或BTC）历史上被某些客户接受，但机构买家几乎总是付USD。\n\nBTC质押 — 较新工具。 客户posts BTC collateral，拿折扣机器价。Bitmain在2025-26环境已经部署。对齐利益 — BTC涨两方都赢。需要careful custody和liquidation rights结构。\n\n风险场景。 BTC在定金和ready-to-ship之间跌 — 客户可能重谈或违约。Mitigation：紧合同语言、resell inventory权利、30%定金作为hard floor。对新或较小客户，push到50%定金或LC。\n\n谈判锚。 绝不以最灵活条款开场。从标准开始；让客户通过commit volume或O&M来earn灵活度。灵活度是lever，不是起始位置。",
@@ -570,7 +522,7 @@ export const modules = [
         "charCount": 650
       },
       {
-        "id": "m9-7",
+        "id": "m9-5",
         "num": 60,
         "title": "管道纪律 — CRM、预测、节奏",
         "answer": "PayPal用Salesforce，Foxx用HubSpot。复杂B2B我偏好Salesforce。\n\n三层。\n\n每周. 每个open opportunity被touched加上next step和next touchpoint的note。任何stale 14天的demoted或killed。\n\n每月. Forecast commit演练。Commit / Best / Upside。Commit = 90%信心本月close。Report commit然后over-deliver而不是pad。\n\n每季度. Pipeline generation audit。多少新pipeline、从哪些sources、按stage的conversion rates。重新分配prospecting to highest-converting channels。\n\n预测方法。 Probability-weighted，不是gut-feel。每个stage有historical conversion rate。Aggregate forecast是数学的加top 5 deals的qualitative color。\n\n对Bitmain specifically。 公众矿企在10-Q披露capex。我会build每个target的addressable wallet share的shadow model，parallel to Salesforce。Drive比opportunity-stage数学alone更准确的forecasting。例如：MARA披露2026年$X机器capex。其中Bitmain wallet share是Y%基于fleet composition。那给我上限on what’s actually winnable。",
@@ -578,23 +530,7 @@ export const modules = [
         "charCount": 772
       },
       {
-        "id": "m9-8",
-        "num": 62,
-        "title": "HQ缓慢回应紧急客户需求。你怎么办？",
-        "answer": "我用的框架。\n\n诚实classify urgency。 这真的紧急吗，还是客户performing urgency？Performance — 我可以slow-walk。Real（damaged shipment需要48-hour replacement）— Priority Zero。\n\nTriage HQ是否需要介入。 很多”紧急”问题local resolve。Damaged shipment可能通过regional warehouse处理不需要PO修改。先解决，necessary才升级。\n\n如果HQ需要，通过right channel升级。 Email在中国商业文化慢。微信voice或直接电话快。Foxx我有3-4个工厂联系人我可以微信call在北京10pm expect answers。\n\n平行track。 HQ在他们那边工作时，用透明度manage客户expectations。“这是我们escalated的，这是timeline，如果slip我会做什么。” 客户接受delay when communicated清楚；他们lose trust when left hanging。\n\nDebrief。 火出来之后，和中国团队review。什么导致delay？Structural fix — NA更多authority、更好escalation process、更清楚playbook？大部分urgent升级可以通过better preparation prevent。\n\n具体Foxx例子。 Production batch在holiday launch前两周QA fail。不能等中国reroute。Authorized expedited air shipment from secondary Vietnam工厂，付premium out of regional budget，拿retroactive HQ approval。客户hit launch。关系deepened。第二年won expanded program。",
-        "qtype": "S",
-        "charCount": 878
-      },
-      {
-        "id": "m9-9",
-        "num": 63,
-        "title": "BTC质押和折扣定价 — 在一个大deal中怎么部署？",
-        "answer": "这些是随市场紧缩Bitmain部署的相对新的商业工具。当thoughtfully部署时，work well。\n\nBTC质押。 客户pledge BTC作为discounted机器价的collateral。典型结构：客户posts X BTC在现价，收到Y%折扣的机器。BTC在escrow或Bitmain custody arrangement。BTC涨客户能recover超过原discount value。BTC崩collateral cover折扣。\n\n什么时候用。\n\n客户资产负债表有BTC但现金constrained。 尤其公众矿企 — 他们坐在BTC上作为treasury，宁愿pledge than sell进弱市场。\n\n客户对BTC bullish但需要机器now。BTC质押让他们lock in机器acquisition without selling他们相信会appreciate的BTC。\n\n大deal where discount alone不close。 BTC upside aligns利益，让package比纯粹price cut psychologically richer。\n\n折扣定价单独。 Sparingly用。Straight discount训练客户next time negotiate harder并erode Bitmain的market pricing。我只会在这些情况主动folkusing discount:\n\nVolume tier trigger。 50,000+ unit订单作为政策matter被volume-priced。\n\nStrategic account win。 突破新logo justify margin牺牲因为reference value复利。\n\nClose-quarter urgency。 Q-end push when deal needs to slip进window。\n\n我如何结构谈判。 绝不以BTC质押或折扣开场。以S23 spec优势加bundle value加美国工厂开场。客户resist价格时，首先offer to加O&M或融资。只有neither move them我才introduce质押或折扣 — 我bundle them so客户要commit something in return。\n\nFrame。 Bitmain部署creative商业工具是strength，不是weakness。“这是我们能为你规模的伙伴做什么”lands很不同于”请不要在价格上walk。”",
-        "qtype": "S",
-        "charCount": 1091
-      },
-      {
-        "id": "m9-10",
+        "id": "m9-6",
         "num": 64,
         "title": "有自己电力的客户 vs 需要托管的客户 — 销售动作怎么不同？",
         "answer": "本质不同的对话。\n\n有电力的客户。 狭窄和technical。电价、气候、site design。Match SKU和O&M to fit。和MicroBT在机器spec和价格上竞争。Deal close on TCO math。更少stakeholders，faster cycle。\n\n需要托管的客户。 更wide。Sell Bitmain作为total infrastructure partner。托管伙伴selection based on规模、geography、电力economics。Site SLAs。客户长期own他们site的potential path。Consultant first, vendor second。Deal close on trust to deliver hashrate，不只硬件。\n\n重点转移。 - Power owner. Machines — 效率、固件、O&M、trade-in。 - Hosting seeker. Outcomes — 保证hashrate delivery、uptime、每BTC的cost、Bitmain orchestrating stack。\n\n关系投资转移。 - Power owner. Transactional — 通过pricing和service赢next PO。 - Hosting seeker. Partnership — 赢next PO because we’ve built多年infrastructure together，他们cannot rip and replace easily。\n\n战略读。 Bitmain想随时间把客户from transactional迁移到partnership。即使power owners，我们能否add O&M、固件管理、fleet analytics so Bitmain在他们P&L里baked？增加switching cost，保护share。",
@@ -602,20 +538,12 @@ export const modules = [
         "charCount": 850
       },
       {
-        "id": "m9-11",
+        "id": "m9-7",
         "num": 65,
         "title": "参议员Warren公开点名Bitmain。如果F1000客户提出政治风险担忧，你怎么处理？",
         "answer": "直接答案。Concern是legitimate的我不会dismiss。\n\n首先Acknowledge。 “那是一个fair concern。围绕中国科技的政治和监管风险是真实的，Bitmain在国会讨论中被明确reference。让我走一遍Bitmain在做什么关于这个，以及为什么我认为风险对你组织manageable。”\n\n四点response。\n\n美国工厂投资。 Texas或Florida，250美国员工第一阶段，chip production早2026年开始。那是billions美国资本投资和对美国买家materially reduction in中国-origin exposure。Reference Irene Gao在Bloomberg的公开commitments。\n\nCompliance posture。 Bitmain的trade compliance一直在actively navigate tariff和export control。每个shipment正确分类，每个origin documented。我可以把你合规团队连到Bitmain的 — 我会直接facilitate那个对话。\n\n不是uniquely exposed。 如果你审计委员会关心中国科技，他们应该在问Lenovo、TCL、Huawei in数据中心、供应链每个中国半导体。Bitmain是市场leader所以名字most cited — 不是uniquely at risk。\n\nAlternatives有tradeoffs。 MicroBT也是中国的。Canaan现在HQ在新加坡但制造供应链类似。Auradine是美国但不scale并有narrower产品线。不买Bitmain的决定通常意味着买a worse product或similarly-exposed product。\n\nClose。 “我认为balanced decision涉及ongoing policy monitoring、对新工厂的美国-origin units的preference、和diversified supplier posture。我能帮你structure procurement approach that addresses那些concerns directly — 你想要继续conversation with我们合规lead？”\n\n我绝不会做。 假装政治风险不存在，或make generic”中国科技is fine”arguments。F1000合规官们trained to detect that and it loses credibility fast。",
         "qtype": "S",
         "charCount": 1133
-      },
-      {
-        "id": "m9-12",
-        "num": 66,
-        "title": "ERCOT需求响应 — 对Bitmain在Texas的销售怎么影响？",
-        "answer": "ERCOT运营Emergency Response Service和相关demand-response项目，付大型loads to curtail during grid stress。矿工是ideal DR participants — pausable without operational harm。\n\n真金白银。 RIOT披露tens of millions per year in DR revenue。2023年8月heat waves，RIOT单月earned over $30M in DR credits。\n\n对Bitmain销售的影响。\n\nSite economics包括grid revenue，不只hashrate。 Texas客户的TCO models必须include DR revenue。某些客户在specific months从DR earn more than mining。\n\n机器选择slightly shifts。 DR cycles机器on/off for hours or days。通过thermal cycling的durability和restart reliability matter。水冷advantaged — 比风冷better thermal cycling。\n\nSite design。 DR-optimized sites有fast automation、high-density power management、grid-tie systems that respond in seconds。Bitmain管理软件和固件need to integrate cleanly with客户DR automation。\n\nCompetitive narrative。 Bitmain thermal管理和固件robustness = 比under cycling degrade的cheaper alternatives better DR performance。这是我会lean into的premium-earning story。\n\n更大图景。 Texas是dominant NA mining geography因为ERCOT加stranded energy。任何NA rep without ERCOT fluency在客户对话中out of depth。我会在前60天invest deeply here — RIOT的公开DR数据、ERCOT的市场设计documents、和Texas power consultants的对话。",
-        "qtype": "S",
-        "charCount": 1107
       }
     ]
   }
