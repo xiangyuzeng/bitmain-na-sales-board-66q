@@ -330,6 +330,42 @@ function renderBlock(lines, modColor) {
       i++; continue;
     }
 
+    // Markdown table: consecutive lines starting and ending with |
+    // First row = header, optional separator row | --- | is skipped, rest = body.
+    if (/^\|.+\|$/.test(t)) {
+      const rows = [];
+      while (i < lines.length && /^\|.+\|$/.test(lines[i])) {
+        const raw = lines[i].slice(1, -1);
+        const cells = raw.split('|').map(c => c.trim());
+        // Skip markdown separator rows like | --- | --- |
+        const isSep = cells.every(c => /^:?-+:?$/.test(c));
+        if (!isSep) rows.push(cells);
+        i++;
+      }
+      if (rows.length >= 2) {
+        const [header, ...body] = rows;
+        out.push(
+          <table key={"t"+i} style={{ borderCollapse: "collapse", margin: "4px 0 8px", fontSize: 12.5, width: "100%", tableLayout: "auto" }}>
+            <thead>
+              <tr>{header.map((h, idx) => (
+                <th key={idx} style={{ textAlign: "left", padding: "5px 8px", borderBottom: "2px solid " + modColor, color: modColor, fontWeight: 600, whiteSpace: "nowrap", background: modColor + "08" }}>{h}</th>
+              ))}</tr>
+            </thead>
+            <tbody>
+              {body.map((r, ri) => (
+                <tr key={ri} style={{ borderBottom: "1px solid #eee" }}>
+                  {r.map((c, ci) => (
+                    <td key={ci} style={{ padding: "5px 8px", color: "#444", verticalAlign: "top", lineHeight: 1.45 }}>{c}</td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        );
+        continue;
+      }
+    }
+
     // Bullet group (consecutive · - – • ► lines collapse into a tight list).
     if (/^[•·\-–►]/.test(t)) {
       const items = [];
