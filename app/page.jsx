@@ -315,18 +315,18 @@ function renderBlock(lines, modColor) {
 
     // Heading variants: 【...】, 第N阶段/步/层, Phase N, 一、/二、, ⚠️ banners
     if (/^【⚠️/.test(t)) {
-      out.push(<div key={i} style={{ fontSize: 14, fontWeight: 700, color: "#B71C1C", margin: "8px 0", borderLeft: "3px solid #E53935", padding: "8px 12px", background: "#FFF8E1", borderRadius: "0 6px 6px 0" }}>{t}</div>);
+      out.push(<div key={i} style={{ fontSize: 13.5, fontWeight: 700, color: "#B71C1C", margin: "6px 0 2px", borderLeft: "3px solid #E53935", padding: "5px 10px", background: "#FFF8E1", borderRadius: "0 6px 6px 0" }}>{t}</div>);
       i++; continue;
     }
     if (/^【/.test(t)) {
-      out.push(<div key={i} style={{ fontSize: 14, fontWeight: 700, color: modColor, margin: "10px 0 4px", borderLeft: "3px solid " + modColor, paddingLeft: 10 }}>{t}</div>);
+      out.push(<div key={i} style={{ fontSize: 13.5, fontWeight: 700, color: modColor, margin: "8px 0 2px", borderLeft: "3px solid " + modColor, paddingLeft: 8 }}>{t}</div>);
       i++; continue;
     }
     if (/^第[一二三四五六七八九十百0-9]+(阶段|步|层|轮|个|周|月|年|阶|条|点)/.test(t) ||
         /^Phase\s/i.test(t) ||
         /^[一二三四五六七八九十]+[、,，]/.test(t) ||
         /^[一二三四五六七八九十]+\.[^0-9]/.test(t)) {
-      out.push(<div key={i} style={{ fontSize: 13.5, fontWeight: 700, color: modColor, margin: "10px 0 4px" }}>{t}</div>);
+      out.push(<div key={i} style={{ fontSize: 13, fontWeight: 700, color: modColor, margin: "6px 0 2px" }}>{t}</div>);
       i++; continue;
     }
 
@@ -338,10 +338,10 @@ function renderBlock(lines, modColor) {
         i++;
       }
       out.push(
-        <ul key={"u"+i} style={{ margin: "4px 0 6px", paddingLeft: 18, listStyle: "none" }}>
+        <ul key={"u"+i} style={{ margin: "2px 0 4px", paddingLeft: 16, listStyle: "none" }}>
           {items.map((it, idx) => (
-            <li key={idx} style={{ fontSize: 13.5, lineHeight: 1.65, color: "#444", padding: "1px 0", position: "relative" }}>
-              <span style={{ position: "absolute", left: -12, top: 0, color: modColor, fontWeight: 700 }}>·</span>
+            <li key={idx} style={{ fontSize: 13, lineHeight: 1.55, color: "#444", padding: "0", position: "relative" }}>
+              <span style={{ position: "absolute", left: -10, top: 0, color: modColor, fontWeight: 700 }}>·</span>
               {renderInline(it, modColor)}
             </li>
           ))}
@@ -361,9 +361,9 @@ function renderBlock(lines, modColor) {
       const allShort = items.every(s => s.length <= 60);
       if (items.length >= 2 && allShort) {
         out.push(
-          <ol key={"o"+i} style={{ margin: "4px 0 6px", paddingLeft: 22, listStyle: "decimal" }}>
+          <ol key={"o"+i} style={{ margin: "2px 0 4px", paddingLeft: 20, listStyle: "decimal" }}>
             {items.map((it, idx) => (
-              <li key={idx} style={{ fontSize: 13.5, lineHeight: 1.65, color: "#333", padding: "1px 0" }}>
+              <li key={idx} style={{ fontSize: 13, lineHeight: 1.55, color: "#333", padding: "0" }}>
                 {renderInline(it.replace(/^[0-9]+[.、)]\s*/, '').replace(/^第[一二三四五六七八九十0-9]+[，,]\s*/, ''), modColor)}
               </li>
             ))}
@@ -371,7 +371,7 @@ function renderBlock(lines, modColor) {
         );
       } else {
         items.forEach((it, idx) => out.push(
-          <p key={"n"+i+"-"+idx} style={{ fontSize: 13.5, lineHeight: 1.7, color: "#333", margin: "4px 0", fontWeight: 500 }}>{renderInline(it, modColor)}</p>
+          <p key={"n"+i+"-"+idx} style={{ fontSize: 13, lineHeight: 1.6, color: "#333", margin: "2px 0", fontWeight: 500 }}>{renderInline(it, modColor)}</p>
         ));
       }
       continue;
@@ -391,10 +391,10 @@ function renderBlock(lines, modColor) {
       }
       if (rows.length >= 2) {
         out.push(
-          <div key={"d"+i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", columnGap: 10, rowGap: 4, margin: "4px 0 8px" }}>
+          <div key={"d"+i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", columnGap: 8, rowGap: 2, margin: "2px 0 4px" }}>
             {rows.flatMap((r, idx) => [
               <div key={"k"+idx} style={{ fontSize: 13, color: modColor, fontWeight: 600, whiteSpace: "nowrap" }}>{r[0]}：</div>,
-              <div key={"v"+idx} style={{ fontSize: 13.5, color: "#444", lineHeight: 1.6 }}>{renderInline(r[1], modColor)}</div>,
+              <div key={"v"+idx} style={{ fontSize: 13, color: "#444", lineHeight: 1.55 }}>{renderInline(r[1], modColor)}</div>,
             ])}
           </div>
         );
@@ -402,7 +402,7 @@ function renderBlock(lines, modColor) {
       }
       // Single label line: render inline-styled.
       out.push(
-        <p key={"sl"+i} style={{ fontSize: 13.5, lineHeight: 1.7, color: "#444", margin: "3px 0" }}>
+        <p key={"sl"+i} style={{ fontSize: 13, lineHeight: 1.6, color: "#444", margin: "2px 0" }}>
           <span style={{ color: modColor, fontWeight: 600 }}>{t.split(/[：:]/)[0]}：</span>
           {t.split(/[：:]/).slice(1).join('：')}
         </p>
@@ -411,7 +411,7 @@ function renderBlock(lines, modColor) {
     }
 
     // Plain paragraph
-    out.push(<p key={i} style={{ fontSize: 13.5, lineHeight: 1.75, color: "#444", margin: "4px 0" }}>{renderInline(t, modColor)}</p>);
+    out.push(<p key={i} style={{ fontSize: 13, lineHeight: 1.65, color: "#444", margin: "3px 0" }}>{renderInline(t, modColor)}</p>);
     i++;
   }
   return out;

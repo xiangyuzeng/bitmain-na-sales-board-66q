@@ -1,4 +1,4 @@
-// Bitmain北美机构销售 · 面试答题板 · 57题
+// Bitmain北美机构销售 · 面试答题板 · 65题
 // 9模块 · 行为STAR · 项目深挖 · 行业技术 · 销售策略 · 反问环节
 
 export const QTYPE = {
@@ -28,10 +28,10 @@ export const modules = [
       {
         "id": "m1-2",
         "num": 2,
-        "title": "是什么让你现在寻求新机会？为什么Bitmain是正确的下一步？",
-        "answer": "我目前在Foxx Development的工作是一段非常有价值的经历。过去三年我从零搭建北美分销网络，签约12家区域核心经销商，打入Walmart/Target/Best Buy主流零售渠道，主导T-Mobile和ACP项目贡献$1500万年收入增长。我为这些成就感到自豪。\n\n然而，我已到了准备迎接新挑战的时刻，由三个因素驱动：\n\n第一，赛道升级。 Foxx销售的是消费电子类ICT产品，平均单笔订单在几十万到几百万美元，技术门槛和客户粘性相对较低。我希望进入技术含量更高、单笔规模更大的赛道。Bitmain的ASIC挖矿硬件加托管运维，单笔RFQ是$30M到$200M量级，客户关系是5-7年的战略伙伴。这对我来说是销售能力的升级。\n\n第二，行业地位。 ICT分销是碎片化的行业。ASIC挖矿硬件是全球只有三家厂商主导的集中市场，Bitmain是第一名。个别大客户的输赢能影响整个行业的格局。我希望在一个能真正改变行业的公司里工作。\n\n第三，生态深度。 Foxx卖产品关系就大致结束了。Bitmain卖硬件+托管+运维+ANTPOOL接入——这是个复利式的客户关系，每个好客户都是5-7年的收入流。我想销售这种有复利的账户。\n\n为什么Bitmain是正确的下一步：\n\n时机恰好。 2026年Q1末，BTC在$68-75K区间，矿工压力巨大。但这恰恰意味着幸存者需要S23级别的效率才能活下来。未来18-24个月是S19替换周期的高峰，也是Bitmain在美国工厂全面投产的关键窗口。现在加入Bitmain，意味着参与北美市场的关键建设阶段。\n\n经验可直接迁移。 我在Foxx做的一切——从CES展会获客，到ODM方案落地，到T-Mobile的多层决策链管理，到分销商网络搭建——都可以直接应用到Bitmain的北美业务上。公众矿企在采购节奏上和Walmart/Target有惊人的相似度：都有采购委员会、法务审核、供应商手册、EDI对接、财务合规要求。\n\n跨文化是核心竞争力。 Bitmain是中国总部、美国客户。我整个职业生涯都在做这件事——PayPal时向美国总部汇报亚太业务，Foxx协调浙江工厂和美国零售商。这不是我需要学习的技能，这是我每天在做的事情。\n\n我会给Foxx干净的交接期。 我不会留下任何烂尾项目。这是我对自己职业操守的要求。",
+        "title": "为什么 Bitmain (VP 版, 60 秒)",
+        "answer": "【锚定回答 · 为什么 Bitmain · VP 版 · 60 秒】\n\n为什么重做：直属经理听过个人动机版本（\"想要更高的天花板行业\"）。VP 这一轮要重新切入到市场结构和时机。\n\n【三个原因】\n\n第一，市场结构——全球 ASIC 挖矿是三家厂商主导的集中市场，Bitmain 第一名，在当前 hashprice 下，赢的门槛就是效率领先。S23 Hydro 9.5 J/TH 对 MicroBT M79S 14.81——56% 的效率差距，是我见过任何硬件市场最干净的竞争位置。\n\n第二，时机——BTC 在 $70K 附近，摩根大通估算行业生产成本 $77K/BTC，最高效的矿工在 $34-43K。未来 18 个月是所有还在跑 S19 的人的强制替换周期。这个时点加入是顺势，不是逆势 pitching。\n\n第三，匹配——Bitmain 是中国总部卖给美国企业级矿工，矿企的采购流程更像 Walmart 不像加密原生的运营商。这种跨文化加企业级采购的组合，正是我过去五年每天在做的事。\n\n【跟二面的区别】\n\n少谈你，多谈市场和公司。VP 听到这个会判断\"这个候选人已经在用 Bitmain 销售的视角思考问题。\"",
         "qtype": "B",
-        "charCount": 976
+        "charCount": 508
       },
       {
         "id": "m1-3",
@@ -40,6 +40,14 @@ export const modules = [
         "answer": "我从2017年开始关注加密货币行业，自2017年起个人持有BTC和ETH。我不是日内交易者，是长期持有者——经历过2018和2022两次熊市没有恐慌卖出，这种定力对我思考挖矿行业很重要。\n\n对挖矿行业的深度关注从2023年开始，有两个触发点。第一是Foxx开始收到一些零散的小矿场定制冷却设备的RFQ，让我接触到矿场基础设施的需求。第二是减半叙事的推进，促使我系统性研究CoinShares和Luxor Hashrate Index的行业报告。\n\n过去18个月我投入时间研究的具体内容：\n\n挖矿经济学。 Hashprice从2025年10月峰值崩塌到现在的$36/PH/day，这背后的供需关系、难度调整机制、电费-算力-BTC价格的三角博弈。\n\nASIC效率曲线。 从2016年S9的100+ J/TH到S23 Hydro的9.5 J/TH——这是十年90倍的效率提升，决定了整个行业的替换周期。\n\n公众矿企的财务结构。 过去四个季度的MARA、RIOT、CLSK、CIFR、IREN的10-Q，机队构成、capex指引、hashrate目标、BTC库存变化。\n\n北美能源市场。 ERCOT demand response机制，RIOT 2023年夏天单月$3000万DR收入，stranded gas和可再生能源曲线，都是矿场选址的核心变量。\n\n行业政策。 特朗普Liberation Day关税对中国原产挖矿设备的25-35%实际税负，Bitmain/MicroBT/Canaan的美国建厂应对，Elizabeth Warren对中国矿机的政治施压。\n\nAI转型剧本。 Core Scientific的CoreWeave协议、IREN的微软$97亿HPC、CleanSpark的890 MW Texas混合建设——这些都是当前行业最重要的战略信号。\n\n我不会自称有在Foundry或Luxor工作过三年的人那种深度。但差距是以月计的沉浸式学习，不是以年计的能力鸿沟。",
         "qtype": "T",
         "charCount": 836
+      },
+      {
+        "id": "m1-4",
+        "num": 201,
+        "title": "锚定·英文自我介绍 (90 秒)",
+        "answer": "【锚定回答 · English Self-Intro · 90 秒】\n\n为什么重做：二面录音显示英文自我介绍是流水账，没有清晰过渡，关键数字漏了。VP 一定会再要一次英文版。\n\n【脚本】\n\nI'm Xiangyu Zheng — bilingual Chinese-American, Green Card holder based in New York, MS from Carnegie Mellon, BS from Wisconsin-Madison.\n\nMy career has two chapters. At PayPal in Los Angeles, 2021 to 2023, I managed 200-plus merchant accounts — Amazon, eBay, cross-border e-commerce — built a data-driven segmentation system that lifted retention 15 percent and drove 10 percent revenue growth. Reported APAC sales to US HQ, which is where I learned to bridge Chinese operations and US customer expectations.\n\nAt Foxx Development since 2023, I built an $80 million ICT distribution network from zero — twelve regional distributors signed via CES and Computex, broke into Walmart, Target, Best Buy with custom UL/FCC certification packages, landed T-Mobile and ACP for $15 million in carrier-channel revenue, and built our TikTok Shop B2B presence to a top-two US category position.\n\nThree reasons I'm here today. One, the deal scale at Bitmain — $30M to $200M RFQs — is where I want to operate. Two, the Chinese-HQ-to-US-enterprise model is what I do every day. Three, the market is at an inflection — survivors need maximum efficiency to break even and pivoters need a partner who understands both sides. That's the conversation I want to be in.\n\n【交付要点】\n\n掐表：控制在 100 秒以内。\n\n数字一个都不能漏：200, 15%, 10%, $80M, 12, $15M, top two, $30M-$200M。",
+        "qtype": "B",
+        "charCount": 1428
       }
     ]
   },
@@ -89,6 +97,22 @@ export const modules = [
         "answer": "四个阶段，不是三个：\n\n阶段一，2024年4月-8月。Capex冻结。 区块奖励减半，公众矿企暂停扩张，专注效率。二手ASIC价格崩溃——S19 XP跌破$5/TH。\n\n阶段二，2024年末-2025年。整合与资本化。 较弱运营商卖场地或下线。CleanSpark、IREN、Cipher低价收购算力。Core Scientific走出破产，通过CoreWeave深度转向AI托管。\n\n阶段三，2025年。幸存者的替换周期。 S19代在25-30 J/TH变得不经济。幸存者换成S21 Pro、S21 XP、S21 XP Immersion，年底换S23。CleanSpark的$1.677亿S21 XP Immersion协议是标杆。\n\n阶段四，2026年Q1起——我们现在正处的阶段。“衰退+AI转型”。 BTC从10月$115K跌到$68K-70K。Hashprice崩塌。公众矿企Q1 2026出售32,000+ BTC创纪录。MARA裁员15%。IREN签微软$97亿HPC。摩根大通预测2026年底公众矿企最多70%收入来自AI/HPC。\n\n对Bitmain销售意味着什么？两个截然不同的销售动作：\n\n动作一：为幸存者做效率升级。 把S23和S21 XP卖给那些必须降低BTC生产成本才能维持盈利的运营商。这是价格敏感、TCO驱动、NPV建模的销售。\n\n动作二：为转型者做混合容量。 那些把部分电力转向AI但保留一部分BTC敞口的运营商。他们想要Bitmain作为同时懂两种业务的伙伴——Sophon AI + ANTMINER + 托管。不同的pitch，更长的周期，更大的战略回报。\n\n在这个环境下胜出的销售代表，是能读懂每个客户在哪个动作上，并带来合适对话的那个人。",
         "qtype": "T",
         "charCount": 742
+      },
+      {
+        "id": "m2-6",
+        "num": 203,
+        "title": "锚定·市场观 (90 秒, 把数字砸出来)",
+        "answer": "【锚定回答 · 市场观 · 90 秒】\n\n为什么重做：这是二面交付最大的短板。整场提到 BTC \"现在六七万中间震荡\"但没接 hashprice、生产成本、客户分化的战略判断。\n\n【脚本】\n\nBTC 在高 $60K 到中 $70K，远低于 10 月峰值的 $115-120K。全网算力约 1 zettahash 每秒——大概 1,000 EH/s——难度创历史新高约 135 万亿。Hashprice 约 $36/PH/day，比 10 月峰值跌了大约三分之二。\n\n摩根大通 1 月估算行业平均生产成本 $77,000/BTC。最高效的矿工——sub-$0.05/kWh 加新一代 ASIC——成本 $34-43K。中间的所有人都在亏损。这就是为什么公众矿企 Q1 抛售了创纪录的 32,000+ BTC，MARA 执行了 15% 裁员。\n\n市场分化成两类客户。幸存者需要 S23 级别的效率才能盈亏平衡——这是升级周期的销售机会，量更大。转型者把电力部分重新部署到 AI 计算，其中一部分容量留在 Bitmain，因为他们要懂两边的合作伙伴。IREN 的 97 亿微软协议、Core Scientific 通过 CoreWeave——这些是信号，不是整个市场。\n\nBitmain 北美收入的大头还是幸存者升级和不转型矿工的新 logo wins。我会把 70% 以上的时间放在这里。\n\n【收尾对齐】\n\n明确呼应了直属经理告诉你 \"AI 只是客户的一小部分\"。在确认听懂了他。",
+        "qtype": "T",
+        "charCount": 638
+      },
+      {
+        "id": "m2-7",
+        "num": 204,
+        "title": "锚定·为什么 Bitmain 赢 (60 秒)",
+        "answer": "【锚定回答 · 为什么 Bitmain 赢 · 60 秒】\n\n【三层】\n\n效率——S23 Hydro 9.5 J/TH 是行业最低。100 MW 的矿场，从 S19 fleet 的 25 J/TH 升级到 9.5，每年电费节省数百万美元。这是 CFO 关心的对话。\n\n生态——10 多年的固件迭代，ANTPOOL 集成，最大的装机基数遥测数据库，美国、哈萨克斯坦、中东、东南亚的区域售后枢纽。10 万台机器出问题时，我们有备件、有现场工程师。MicroBT 在追赶但还没到平价。\n\n美国工厂——Texas 或 Florida 的产线，年底满产。这是关税减免、交期加速、RMA 提速、给上市公司合规团队的政治掩护。竞争对手没有一家在同等准备阶段。\n\n【收尾原则】\n\n每个竞争性 deal 都锚定在效率加生态，绝不让对话坍缩到纯粹价格战。",
+        "qtype": "T",
+        "charCount": 367
       }
     ]
   },
@@ -443,26 +467,26 @@ export const modules = [
       {
         "id": "m8-2",
         "num": 49,
-        "title": "你在头90天怎么关上挖矿行业知识的差距？",
-        "answer": "Days 1–30. 沉浸期。 每份Bitmain产品spec sheet、固件发行说明、O&M文档。Top 10公众矿企过去四个季度的10-Q — MARA、RIOT、CLSK、CIFR、CORZ、HUT、WULF、BITF、IREN、BTDR。Luxor Hashrate Index周报回溯12个月。CoinShares矿业报告回溯两年。参加Bitcoin 2026 Vegas或最近的矿业活动。跟Top NA rep影子10个客户电话。\n\nDays 31–60. 对话期。 与20个行业从业者结构化30分钟聊。Bitmain客户、Bitmain工程师、行业分析师、托管运营商、投行研究覆盖的组合。带具体问题。建立个人知识地图。第60天，知道每个主要玩家的战略和每个运营商的具体痛点。\n\nDays 61–90. 应用期。 运行5个目标账户的discovery电话，owning conversation。写两份账户战略文档。向Bitmain领导层present一个市场评估——我认为NA机会按细分、按账户、跨12个月是什么。第90天，运营化，不再在学习。\n\n整个过程的日常习惯。 早晨30分钟读Mining Twitter和newsletters。每周深度一个技术或市场主题。每月访问一个客户设施。\n\n学习曲线不是线性的。 前30天感觉overwhelming，接下来30天click，最后30天开始有opinion worth listening to。第6个月，在行业知识上与矿业原生rep无法区分，在企业销售流程上仍然领先。",
-        "qtype": "T",
-        "charCount": 668
+        "title": "锚定·头 90 天 (60 秒, 精炼版)",
+        "answer": "【锚定回答 · 头 90 天 · 60 秒 · 精炼版】\n\n为什么精炼：二面确认了线索一部分分配一部分自开发。反映这一点。\n\n【第 1-30 天——沉浸期加继承关系】\n\n每份 Bitmain 产品 spec sheet，前四个季度的 Top 10 公众矿企 10-Q，Luxor Hashrate Index 报告回溯 12 个月。继承的客户关系——第一周清点分配给我的线索，按 deal 概率和战略价值排序，前五大的客户在第三周前安排引荐通话。\n\n【第 31-60 天——结构化对话和自开发 pipeline】\n\n20 场 30 分钟谈话——Bitmain 客户、Bitmain 工程师、行业分析师、托管运营商。并行：结构化进入二线 10 个新 logo 的 prospecting。第 60 天，知道每个主要北美账户的战略和痛点。\n\n【第 61-90 天——应用期】\n\n5 个目标账户的 discovery call，自己 own 对话。写两份账户战略文档。向 leadership 呈现我对北美市场的评估。\n\n【期望】\n\n第一季度建 pipeline，不是 closed revenue。第六个月，在行业知识上和矿业原生 rep 无法区分，企业销售流程上仍然领先。",
+        "qtype": "B",
+        "charCount": 535
       },
       {
         "id": "m8-3",
         "num": 50,
-        "title": "讲一个你失败或丢掉的交易。学到什么？",
-        "answer": "失败案例：另一家主要运营商的$800万IoT机会，14个月追逐，输给incumbent。\n\n两个mistake. 一，没有internal champion — T-Mobile我有一个和incumbent有过节的procurement lead帮我们说话；这家我只有neutral support，不足以dislodge incumbent。二，误读timeline — 我以为是fair competitive process，实际是政治决定的incumbent renewal，RFP只是cover。\n\n三个教训。 Qualify for champion existence，不只是buyer interest。读access signals — 6个月见不到决策人就是closed process。早期设kill criteria防止opportunity cost吃掉pipeline。\n\n应用到Bitmain。 追公众矿企时，第2个月内verify champion existence。见不到COO/CFO就slow down，reallocate到有更好access的accounts。",
+        "title": "讲一个本该赢但没赢的 deal",
+        "answer": "【Deal】\n\n美国二线运营商企业 IoT，$800万 年度机会，14 个月追逐，输给现任供应商。\n\n【为什么本该赢】\n\n产品技术上有竞争力，价格比现任低 10%，认证 clean。标准 playbook 执行。\n\n【两个我输的原因】\n\n一、没有 internal champion。\n\n我有 neutral support——没人反对，没人拥护。Neutral support 推不掉 incumbent。Incumbent 有惯性，需要主动 internal champion 才能推翻。\n\n二、误读流程。\n\n看似公平的 RFP 在程序上掩盖了政治预决的 incumbent 续约。我应该在第四个月就读出 access 信号——senior leadership 时间有限、反馈模糊、回应 window 短——slow down 这个追逐。结果我又花了 10 个月在一个 closed process。\n\n【我现在做得不一样】\n\n每个账户在第二个月有 champion 测试。如果第八周还约不到实际决策人 60 分钟会议，无论技术匹配看起来多好，我都 deprioritize。这种纪律是保护 pipeline 不被 zombie opportunity 拖死的关键。\n\n【应用到 Bitmain】\n\n公众矿企周期 3-9 个月，champion 测试更早——第六周。如果 target 账户在 COO 或 CFO 层不响应，我把时间重定向到我有 access 的账户。这种纪律是北美 rep 怎么有效 cover 10 个目标账户而不是稀释到 30 个的关键。",
         "qtype": "B",
-        "charCount": 502
+        "charCount": 683
       },
       {
         "id": "m8-4",
         "num": 51,
-        "title": "讲一个你推动过的内部冲突。",
-        "answer": "Foxx客户要custom firmware，工程团队拒绝。引爆点：工程说定制fork需要separately maintain，让销售回绝客户。但回绝=年收入丢$400万。\n\n我的push. 亲自去客户那儿validate需求(真实痛点而非wish list) → 把业务案例带给工程(年$400万、6人周开发、10% FTE维护 → ROI 3000%) → 解决他们structural concern(如果变standard就fold进主平台，如果不变就向客户收annual maintenance fee) → CEO joint decision带条件(formalize custom work定价体系不再one-off谈)。\n\nLesson：内部冲突常常是关于process，不是具体决定。 工程不是反对custom work，是反对ad hoc without framework。Provide framework — 具体决定自动解决。",
+        "title": "走一遍你解决过的中国工厂和美国客户之间的真实冲突",
+        "answer": "【情境】\n\n主要美国客户需要固件修改以集成他们现有遥测基础设施。没有这些修改，产品对他们运营上无法用。中国工程团队最初拒绝——他们觉得超出标准平台，不想维护单独的固件 fork。\n\n【Framing 问题】\n\n工程不是反对定制工作——是反对没有持续维护负担结构性框架的 ad-hoc 定制工作。\n\n【我做了什么】\n\n一、现场验证需求。\n\n跟客户面对面理解为什么修改重要。真实运营痛点，不是 wish list。\n\n二、给工程建商业案例。\n\n重 framing 从\"为客户做这个\"到\"$400万年度收入，6 周工程时间，10% 一个 FTE 持续维护，第一年 ROI 3000%。这些修改可能在 18 个月内变成标准运营商需求——我们会领先市场建。\"\n\n三、解决结构性 concern。\n\n承诺如果这些修改变成标准请求，我们 fold 进主平台。如果保持客户专属，我们在合同里 price 一个年度维护费 fund 一个专属工程产能。两种情况工程负担都被 cover。\n\n四、跟 CEO joint decision。\n\n不是请求，是带结构化修复的推荐。CEO 批准带条件——formalize 客户基础上定制固件工作的定价，以后不再 one-off 谈判。\n\n【结果】\n\n工程按时交付。客户接受，第二年扩展程序。工程团队后来说流程是好的——它强制了一个结构性决策而不是 one-off 战斗。\n\n【原则】\n\n内部冲突通常是关于 process，不是具体决策。提供结构性框架，具体决策自己解决。\n\n【应用到 Bitmain】\n\n我预期成为美国客户请求和中国工程之间的桥梁。直属经理描述的国内配对模式对我 work——我 own 客户面对面对话，我搭档 own 内部导航。结构性摩擦出现时，我把它带给你，附带推荐框架，不只是问题。",
         "qtype": "B",
-        "charCount": 429
+        "charCount": 763
       },
       {
         "id": "m8-5",
@@ -479,6 +503,14 @@ export const modules = [
         "answer": "Best Buy, 从Foxx开始。0-6月冷启动 — 前面三次提案被拒，通过展会拿到commercial buyer。7-12月首单$200万 ODM pilot (94% sell-through)。13-18月 $2000万、12 SKU、新增ODM design services。19-30月 $3500万、preferred partner、季度QBR加VP merchandising作exec sponsor。当前 $4000万+，战略伙伴，Best Buy提前6个月带roadmap找我们。\n\n三个inflection point： 一年sell-through建立信任 → 主动解决他们供应链危机赢得good will → exec-to-exec关系为运营层work提供air cover。\n\n对Bitmain的lesson： 大客户关系不是rep一个人建的，是org加rep作为orchestrator。争取Bitmain executive access for top 3 strategic accounts，季度on-site，proactive mindset。第一个deal是transactional。第十个deal是客户无法想象没有你运营。",
         "qtype": "B",
         "charCount": 540
+      },
+      {
+        "id": "m8-7",
+        "num": 113,
+        "title": "如果今天打给你 Foxx 的 CEO，他会说你最大的弱点是什么？",
+        "answer": "【一句话】\n\n他会说我在队友请求支持低优先级工作时，难以说不。\n\n【诚实版本】\n\n我在 Foxx 的角色演变成销售枢纽功能——协调美国销售、中国工厂、认证、定制。美国 rep 让我推工厂做定制请求时，我通常会接，即使底层 deal 概率低。久而久之我自己高概率账户的 pipeline 拿到的注意力比应得的少。CEO 直接 call out 过——他说我需要在优先级上更硬，哪怕代价是一些团队内摩擦。\n\n【我做了什么】\n\n开始周五复盘上周时间花在哪里 versus deal 概率。如果 30% 以上时间花在概率低于 30% 的机会上，下周我就 push back。不完美——老习惯——但 framing 紧了。\n\n【为什么这对 Bitmain 重要】\n\n一个 quota $30M+ 的北美销售岗位，需要对内部不能推动 pipeline 前进的请求说不的纪律。我会希望前 30 天跟你明确校准什么值得我时间、什么不值。这是请求，不是抱怨——我宁愿早期得到 framing，也不要在第六个月才搞清楚。",
+        "qtype": "B",
+        "charCount": 450
       }
     ]
   },
@@ -492,10 +524,10 @@ export const modules = [
       {
         "id": "m9-1",
         "num": 54,
-        "title": "优先四层客户 — 公众矿企、私营矿企、对冲基金、《财富》1000强",
-        "answer": "四层客户在effort-to-revenue上并不平等。按概率和速度排序：\n\nPriority 1 — 公众矿企。~70% pipeline 时间。 MARA、RIOT、CLSK、CIFR、CORZ、HUT、WULF、BITF、IREN、BTDR。披露capex，成熟采购团队，ticket $30M-$300M。决策人：COO、CFO、Chief Mining Officer。周期3-9个月。\n\nPriority 2 — 大型私营矿企和数据中心运营商。~20%。 PE支持的私矿、混合AI/BTC运营商、托管公司。决策人：创始人或CEO。周期2-6个月。Ticket $5M-$50M。速度更快，通常比公众矿企less bureaucratic。\n\nPriority 3 — 对冲基金和机构资本。~5%。 很少直接买机器。他们投资运营商，给我介绍他们portfolio公司，分享市场情报。每小时的leverage很高。\n\nPriority 4 — 《财富》1000强。~5%。 长期游戏。MicroStrategy谱系的BTC treasury公司。有stranded gas的油气巨头。有curtailed renewables的公用事业。第一个F1000 logo可能12-18个月以后。\n\n关键洞察。 70%的时间给Tier 1因为那里有确定的收入。但是我会结构化prospecting进入Tier 2，对Tier 3和4做季度性touches，这样pipeline正确老化，我也不会和每个MicroBT rep在同5个公众矿企logos上竞争。",
+        "title": "锚定·客户分层论 (90 秒)",
+        "answer": "【锚定回答 · 客户分层论 · 90 秒】\n\n【四层，优先级不平等】\n\n第一层——公众矿企。70% 的 pipeline 时间。\n\nMARA、RIOT、CleanSpark、Cipher、Core Scientific、Hut 8、TeraWulf、Bitfarms、IREN、Bitdeer。10-Q 披露 capex，成熟的采购团队，单笔 $30M 到 $300M。决策人是 COO、CFO、Chief Mining Officer。周期 3 到 9 个月。\n\n第二层——大型私营矿企和数据中心运营商。20%。\n\nPE 支持的私矿、混合 AI/BTC 运营商、托管公司。创始人驱动决策，2-6 个月周期，$5M 到 $50M ticket。比第一层快，less procedural。\n\n第三层——对冲基金和机构资本。5%。\n\n很少直接买机器——他们投资运营商，给我介绍 portfolio 公司，分享市场情报。每小时投入的 leverage 极高。\n\n第四层——《财富》1000强。5%。\n\nMicroStrategy 谱系的 BTC treasury 公司。有 stranded gas 的能源巨头。长线 logo，12-18 个月才能拿下第一单。\n\n【纪律】\n\n70% 时间给第一层因为那里有确定收入，但是结构化 prospecting 进入第二层，对第三、四层做季度性 touches，让 pipeline 正确老化。",
         "qtype": "S",
-        "charCount": 678
+        "charCount": 615
       },
       {
         "id": "m9-2",
@@ -544,6 +576,38 @@ export const modules = [
         "answer": "直接答案。Concern是legitimate的我不会dismiss。\n\n首先Acknowledge。 “那是一个fair concern。围绕中国科技的政治和监管风险是真实的，Bitmain在国会讨论中被明确reference。让我走一遍Bitmain在做什么关于这个，以及为什么我认为风险对你组织manageable。”\n\n四点response。\n\n美国工厂投资。 Texas或Florida，250美国员工第一阶段，chip production早2026年开始。那是billions美国资本投资和对美国买家materially reduction in中国-origin exposure。Reference Irene Gao在Bloomberg的公开commitments。\n\nCompliance posture。 Bitmain的trade compliance一直在actively navigate tariff和export control。每个shipment正确分类，每个origin documented。我可以把你合规团队连到Bitmain的 — 我会直接facilitate那个对话。\n\n不是uniquely exposed。 如果你审计委员会关心中国科技，他们应该在问Lenovo、TCL、Huawei in数据中心、供应链每个中国半导体。Bitmain是市场leader所以名字most cited — 不是uniquely at risk。\n\nAlternatives有tradeoffs。 MicroBT也是中国的。Canaan现在HQ在新加坡但制造供应链类似。Auradine是美国但不scale并有narrower产品线。不买Bitmain的决定通常意味着买a worse product或similarly-exposed product。\n\nClose。 “我认为balanced decision涉及ongoing policy monitoring、对新工厂的美国-origin units的preference、和diversified supplier posture。我能帮你structure procurement approach that addresses那些concerns directly — 你想要继续conversation with我们合规lead？”\n\n我绝不会做。 假装政治风险不存在，或make generic”中国科技is fine”arguments。F1000合规官们trained to detect that and it loses credibility fast。",
         "qtype": "S",
         "charCount": 1133
+      },
+      {
+        "id": "m9-8",
+        "num": 101,
+        "title": "你怎么看 2027 年的比特币挖矿行业？",
+        "answer": "【三个结构性变化会放大】\n\n一、整合加速。\n\n成本结构在 $80K/BTC 以上的公众矿企，挺不过 BTC 持续低于 $70K 的环境。要么被 CleanSpark、Cipher 这种更强的运营商收购，要么 wind down。Top 5 公众矿企到 2027 年控制美国算力中显著更大的份额。\n\n二、效率底线下移到 sub-10 J/TH。\n\nS23 Hydro 9.5 是今天的领先边界。到 2027 年，下一代 Bitmain 产品——大概率是 S25——推到 7-8 J/TH。认真运营商的标准 fleet 是 sub-12 J/TH。还在跑 S19 25 J/TH 的人，在任何合理 hashprice 下都不经济。\n\n三、地理集中度在美国深化。\n\nTexas、Carolinas、Wyoming、Georgia。ERCOT 需求响应经济性让 Texas 主导——RIOT 在 2023年8月 一个月赚了 $3000万 DR 信用。到 2027 年，美国持有全球算力 50% 以上，几乎全在五六个州。\n\n【对 Bitmain 的含义】\n\n账户更集中、关系更深、合约更长。北美业务从交易型硬件销售转向跟幸存运营商的多年 fleet 合作。如果我们是 record 上的合作伙伴，那对我们好；如果不是，是生存级问题。",
+        "qtype": "S",
+        "charCount": 561
+      },
+      {
+        "id": "m9-9",
+        "num": 104,
+        "title": "Bitmain 现在最大的、被低估讨论的风险是什么？",
+        "answer": "【一句话】\n\n对比特币价格的单点失败暴露。\n\n【为什么这是被低估的风险】\n\n我们经常谈 MicroBT、关税、AI 转型。我们没怎么谈：如果 BTC 进入持续 24 个月的熊市到 $40-50K 会怎样？这不是没先例——2018 和 2022 都发生过。在那个价位，hashprice 跌到 $20 以下，中位矿工严重亏损，行业范围 capex 冻结，我们北美收入可能在很长一段时间压缩 50% 或更多。\n\n【两个具体后果】\n\n第一，我依赖的\"幸存者升级\"论假设 BTC 留在效率高的 fleet 还能盈利的区间。如果 BTC 再跌 30%，即使 S23 fleet 在平均电费下也变成 marginal，升级 pitch 失去说服力。\n\n第二，应收账款风险快速上升——5,000 台机器的私营矿企破产场景变得更常见。\n\n【我希望 Bitmain 投资什么】\n\n反周期商业工具——BTC 质押是开始，但更激进的与 Galaxy、NYDIG 的融资伙伴关系，对承压客户更灵活的付款结构，更紧的 AR 信用风险管理。出熊市时跟客户关系最深的公司是熬过艰难季度时支持客户的那些，不是在条款上变僵硬的那些。\n\n【为什么我提这个】\n\n不是看空 Bitmain——是要在熊市到来之前投资好下一轮的剧本。赢下一轮的公司是这一轮做好准备的公司。",
+        "qtype": "S",
+        "charCount": 564
+      },
+      {
+        "id": "m9-10",
+        "num": 111,
+        "title": "你会在 Bitmain 现行战略上 push back 哪里？",
+        "answer": "【两个我会想测试共识的地方】\n\n一、美国工厂的传播策略。\n\n从外部看，美国工厂的信息读起来是防御性的——关于关税、政治风险、供应链韧性。都是真的。但同样的工厂可以卖成进攻性的——更近客户的工程、更快定制、针对特定电力 profile 的区域化产品变体。这种重 framing 把工厂从\"我们不只是中国\"变成\"我们比竞争对手更响应\"。MicroBT 和 Canaan 也在建美国产能——防御性定位会被对标。进攻性定位才差异化。\n\n二、Sophon 和 AI 算力故事。\n\nBitmain 通过 Sophon 有 AI 能力，但定位为独立产品线，几乎是姊妹业务。从销售视角看，这是错过的 bundle。同样这些在转型 AI 的北美账户——IREN、Core Scientific、Hut 8——会受益于单一 Bitmain 合作伙伴对话，而不是两个。我会推 Sophon 和 ANTMINER 一起卖成\"Bitmain 算力基础设施\"，对混合客户用统一 rep 关系。这是结构性变化，不是营销调整，我理解它有从外部看不到的含义。但这是我前六个月想跟你讨论的对话。\n\n【Framing】\n\n我不是说我对、Bitmain 错——我是说这两个地方我会想用我现在没有访问权的内部数据测试当前模式。这是我会带到我们每周一对一的那种问题。",
+        "qtype": "S",
+        "charCount": 561
+      },
+      {
+        "id": "m9-11",
+        "num": 112,
+        "title": "你认为是错的、行业主流共识是什么？",
+        "answer": "【一句话】\n\n\"Hashprice 是 model 矿工经济性的正确指标。\"\n\n【为什么这个共识是错的】\n\n每个分析师都用、每个公众矿企都报、每份准备文档都开篇用。但 hashprice 平均掉了对具体矿工最重要的两个东西——电费和 fleet 效率。一个跑 S23 Hydro 在 $0.035/kWh 的矿工，跟一个跑 S19 在 $0.06 的矿工，P&L 曲线完全不同，无法用单一 hashprice 数字分析。\n\n【对销售的意义】\n\n我不应该在客户对话里引用行业平均 hashprice。我应该引用客户专属的 BTC 生产成本——他们实际电价、实际 fleet 效率、实际 hashrate 份额——展示 S23 Hydro 改变什么 versus 他们当前 setup。完全不同的对话。\n\n【反向商业 play】\n\n当前 fleet 效率在最差四分位的公众矿企，是被定价过低的升级周期账户。他们看起来在崩盘——高生产成本、财务压力、AR 风险。但实际上是影响最大的升级，因为从 25 J/TH 到 9.5 J/TH 的边际收益远大于从 15 到 9.5。大多数 rep 因为感知信用风险避开他们。我会用结构化付款条件加 BTC 质押 target 他们。",
+        "qtype": "S",
+        "charCount": 533
       }
     ]
   }
