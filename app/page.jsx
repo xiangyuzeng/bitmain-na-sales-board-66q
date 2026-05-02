@@ -258,35 +258,7 @@ export default function Board() {
               <h2 style={{ margin: 0, fontSize: 17, fontWeight: 700, lineHeight: 1.5, color: "#1a1a1a" }}>{sel.title}</h2>
             </div>
             <div style={{ flex: 1, overflowY: "auto", padding: "20px 24px", background: "#fff" }}>
-              {sel.answer.split("\n\n").map((para, pi) => (
-                <div key={pi} style={{ marginBottom: 10 }}>
-                  {para.split("\n").map((line, li) => {
-                    const t = line.trim();
-                    if (!t) return null;
-                    if (/^【⚠️/.test(t))
-                      return <p key={li} style={{ fontSize: 14, fontWeight: 700, color: "#B71C1C", marginTop: 20, marginBottom: 6, borderLeft: "3px solid #E53935", paddingLeft: 10, background: "#FFF8E1", padding: "8px 12px", borderRadius: "0 6px 6px 0" }}>{t}</p>;
-                    if (/^【/.test(t))
-                      return <p key={li} style={{ fontSize: 14, fontWeight: 700, color: sel.modColor, marginTop: 16, marginBottom: 6, borderLeft: "3px solid " + sel.modColor, paddingLeft: 10 }}>{t}</p>;
-                    if (/^第[一二三四五六七八九十]+[阶段步层,，]/.test(t))
-                      return <p key={li} style={{ fontSize: 14, fontWeight: 700, color: sel.modColor, marginTop: 14, marginBottom: 4 }}>{t}</p>;
-                    if (/^Phase\s/.test(t))
-                      return <p key={li} style={{ fontSize: 14, fontWeight: 700, color: sel.modColor, marginTop: 14, marginBottom: 4 }}>{t}</p>;
-                    if (/^[•·\-–►]/.test(t))
-                      return <p key={li} style={{ fontSize: 13.5, lineHeight: 1.8, color: "#444", paddingLeft: 14, position: "relative" }}>
-                        <span style={{ position: "absolute", left: 0, color: sel.modColor, fontWeight: 700 }}>·</span>
-                        {t.replace(/^[•·\-–►]\s*/, '')}
-                      </p>;
-                    if (/^[0-9]+[.、)]/.test(t))
-                      return <p key={li} style={{ fontSize: 13.5, lineHeight: 1.8, color: "#333", fontWeight: 500, marginTop: 4 }}>{t}</p>;
-                    if (/^.{2,20}[：:]/.test(t) && t.indexOf('\uFF1A') < 20)
-                      return <p key={li} style={{ fontSize: 13.5, lineHeight: 1.8, color: "#444", marginTop: 4 }}>
-                        <span style={{ color: sel.modColor, fontWeight: 600 }}>{t.split(/[：:]/)[0]}：</span>
-                        {t.split(/[：:]/).slice(1).join('：')}
-                      </p>;
-                    return <p key={li} style={{ fontSize: 13.5, lineHeight: 1.9, color: "#444", margin: "2px 0" }}>{t}</p>;
-                  })}
-                </div>
-              ))}
+              {renderAnswer(sel.answer, sel.modColor)}
             </div>
             <div style={{ padding: "12px 20px", borderTop: "1px solid #eee", display: "flex", alignItems: "center", justifyContent: "space-between", flexShrink: 0, background: "#FAFAF8" }}>
               <button onClick={() => toggle(sel.id)}
@@ -321,6 +293,134 @@ export default function Board() {
       `}</style>
     </div>
   );
+}
+
+// Compact answer renderer.
+// Each \n\n paragraph -> a block. Within a block, consecutive bullet lines collapse into
+// a tight bulleted list; consecutive short "label: value" lines collapse into a definition
+// grid; numbered headings (一、 / 第一， / 1.) become section headers; long sentences
+// stay as plain paragraphs.
+function renderAnswer(answer, modColor) {
+  // Flatten all non-empty lines into a single stream so consecutive list-style
+  // lines can group regardless of whether they were separated by \n or \n\n.
+  const lines = answer.split(/\n+/).map(l => l.trim()).filter(Boolean);
+  return <div>{renderBlock(lines, modColor)}</div>;
+}
+
+function renderBlock(lines, modColor) {
+  const out = [];
+  let i = 0;
+  while (i < lines.length) {
+    const t = lines[i];
+
+    // Heading variants: 【...】, 第N阶段/步/层, Phase N, 一、/二、, ⚠️ banners
+    if (/^【⚠️/.test(t)) {
+      out.push(<div key={i} style={{ fontSize: 14, fontWeight: 700, color: "#B71C1C", margin: "8px 0", borderLeft: "3px solid #E53935", padding: "8px 12px", background: "#FFF8E1", borderRadius: "0 6px 6px 0" }}>{t}</div>);
+      i++; continue;
+    }
+    if (/^【/.test(t)) {
+      out.push(<div key={i} style={{ fontSize: 14, fontWeight: 700, color: modColor, margin: "10px 0 4px", borderLeft: "3px solid " + modColor, paddingLeft: 10 }}>{t}</div>);
+      i++; continue;
+    }
+    if (/^第[一二三四五六七八九十百0-9]+(阶段|步|层|轮|个|周|月|年|阶|条|点)/.test(t) ||
+        /^Phase\s/i.test(t) ||
+        /^[一二三四五六七八九十]+[、,，]/.test(t) ||
+        /^[一二三四五六七八九十]+\.[^0-9]/.test(t)) {
+      out.push(<div key={i} style={{ fontSize: 13.5, fontWeight: 700, color: modColor, margin: "10px 0 4px" }}>{t}</div>);
+      i++; continue;
+    }
+
+    // Bullet group (consecutive · - – • ► lines collapse into a tight list).
+    if (/^[•·\-–►]/.test(t)) {
+      const items = [];
+      while (i < lines.length && /^[•·\-–►]/.test(lines[i])) {
+        items.push(lines[i].replace(/^[•·\-–►]\s*/, ''));
+        i++;
+      }
+      out.push(
+        <ul key={"u"+i} style={{ margin: "4px 0 6px", paddingLeft: 18, listStyle: "none" }}>
+          {items.map((it, idx) => (
+            <li key={idx} style={{ fontSize: 13.5, lineHeight: 1.65, color: "#444", padding: "1px 0", position: "relative" }}>
+              <span style={{ position: "absolute", left: -12, top: 0, color: modColor, fontWeight: 700 }}>·</span>
+              {renderInline(it, modColor)}
+            </li>
+          ))}
+        </ul>
+      );
+      continue;
+    }
+
+    // Numbered list / "第N，..." / "1." / "1、" etc — treat as a sub-bullet group when
+    // 2+ short consecutive lines, otherwise just a heading-style line.
+    if (/^[0-9]+[.、)]/.test(t) || /^第[一二三四五六七八九十0-9]+[，,]/.test(t)) {
+      const items = [];
+      while (i < lines.length && (/^[0-9]+[.、)]/.test(lines[i]) || /^第[一二三四五六七八九十0-9]+[，,]/.test(lines[i]))) {
+        items.push(lines[i]);
+        i++;
+      }
+      const allShort = items.every(s => s.length <= 60);
+      if (items.length >= 2 && allShort) {
+        out.push(
+          <ol key={"o"+i} style={{ margin: "4px 0 6px", paddingLeft: 22, listStyle: "decimal" }}>
+            {items.map((it, idx) => (
+              <li key={idx} style={{ fontSize: 13.5, lineHeight: 1.65, color: "#333", padding: "1px 0" }}>
+                {renderInline(it.replace(/^[0-9]+[.、)]\s*/, '').replace(/^第[一二三四五六七八九十0-9]+[，,]\s*/, ''), modColor)}
+              </li>
+            ))}
+          </ol>
+        );
+      } else {
+        items.forEach((it, idx) => out.push(
+          <p key={"n"+i+"-"+idx} style={{ fontSize: 13.5, lineHeight: 1.7, color: "#333", margin: "4px 0", fontWeight: 500 }}>{renderInline(it, modColor)}</p>
+        ));
+      }
+      continue;
+    }
+
+    // Definition grid: 2+ consecutive lines of "Label：value" with short label.
+    const isDef = (s) => {
+      const m = s.match(/^([^：:]{1,18})[：:](.+)$/);
+      return !!m;
+    };
+    if (isDef(t)) {
+      const rows = [];
+      while (i < lines.length && isDef(lines[i]) && !/^[•·\-–►【]/.test(lines[i])) {
+        const m = lines[i].match(/^([^：:]{1,18})[：:](.+)$/);
+        rows.push([m[1].trim(), m[2].trim()]);
+        i++;
+      }
+      if (rows.length >= 2) {
+        out.push(
+          <div key={"d"+i} style={{ display: "grid", gridTemplateColumns: "auto 1fr", columnGap: 10, rowGap: 4, margin: "4px 0 8px" }}>
+            {rows.flatMap((r, idx) => [
+              <div key={"k"+idx} style={{ fontSize: 13, color: modColor, fontWeight: 600, whiteSpace: "nowrap" }}>{r[0]}：</div>,
+              <div key={"v"+idx} style={{ fontSize: 13.5, color: "#444", lineHeight: 1.6 }}>{renderInline(r[1], modColor)}</div>,
+            ])}
+          </div>
+        );
+        continue;
+      }
+      // Single label line: render inline-styled.
+      out.push(
+        <p key={"sl"+i} style={{ fontSize: 13.5, lineHeight: 1.7, color: "#444", margin: "3px 0" }}>
+          <span style={{ color: modColor, fontWeight: 600 }}>{t.split(/[：:]/)[0]}：</span>
+          {t.split(/[：:]/).slice(1).join('：')}
+        </p>
+      );
+      i++; continue;
+    }
+
+    // Plain paragraph
+    out.push(<p key={i} style={{ fontSize: 13.5, lineHeight: 1.75, color: "#444", margin: "4px 0" }}>{renderInline(t, modColor)}</p>);
+    i++;
+  }
+  return out;
+}
+
+// Bold inline emphasis: bold the leading clause before the first period if it ends in 。
+// Currently a passthrough — kept as a hook for future inline highlights.
+function renderInline(text, _modColor) {
+  return text;
 }
 
 function highlightText(text, query) {

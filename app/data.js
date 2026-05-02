@@ -45,17 +45,17 @@ export const modules = [
         "id": "m1-4",
         "num": 4,
         "title": "薪资期望和出差承受度",
-        "answer": "薪资。 总包$180K-$220K的范围，底薪+提成+奖金的组合。我目前在Foxx底薪在$150K出头，好年景加上变动的部分到$200K出头。Bitmain考虑到单笔交易规模和复杂度，我期望底薪持平或略高一些，提成上浮空间跟着北美收入走。我不执着于具体的比例——我对pipeline建设有信心，所以希望提成拉开。\n\n出差。 60%+没问题。目前Foxx的岗位大概40%出差在浙江工厂、美国客户、展会之间。再加20%不是生活方式问题。Bitmain的出差我预期集中在Texas、Georgia、Dakota、Wyoming等矿场所在地，加上New York的对冲基金和F1000会议，加上行业大型展会。一周出差一周在家的节奏做了两年。",
+        "answer": "【薪资】\n\n总包预期：$180K–$220K区间。结构上希望底薪+提成+年度奖金的组合，提成可以做大头，我对自己的pipeline建设有信心。\n\n参考点：\n\n当前底薪：$150K出头\n\n好年景总包：$200K出头\n\nBitmain对应：底薪持平或略高，提成上浮空间跟着北美收入和单笔交易规模走\n\n谈判态度：我不执着于具体的底薪/提成比例。我看的是OTE和顶级表现者的真实拿到手是多少。如果Bitmain顶级rep做到$400K-$500K，那比例怎么切对我都OK。\n\n【出差】\n\n60%+完全没问题。\n\n现状参考：目前Foxx岗位大约40%出差，主要在浙江工厂、美国零售客户、CES/Computex这样的大型展会之间。再加20%是节奏问题不是生活方式问题。\n\nBitmain预期出差地图：\n\nTexas（Rockdale、Corsicana）：MARA、RIOT、CleanSpark矿场所在地，应该是访问最频繁的地区\n\nGeorgia / Dakota / Wyoming：CIFR、TeraWulf、Iris Energy的能源矿场\n\nNew York / SF Bay：对冲基金、F1000总部会议\n\n行业大型活动：Bitcoin 2026 Vegas、Mining Disrupt Miami、WDMS\n\n中国HQ：每季度1-2次和HQ做季度回顾、产品roadmap同步\n\n节奏验证：我在Foxx做过两年\"一周出差一周在家\"的节奏，T-Mobile项目期间连续6周每周飞Bellevue，都没有问题。家里也支持。",
         "qtype": "B",
-        "charCount": 316
+        "charCount": 661
       },
       {
         "id": "m1-5",
         "num": 5,
         "title": "你目前在谈的其他机会？入职时间如何安排？",
-        "answer": "老实说，我目前在谈两个其他的机会。一个是美国本土ICT分销商的类似BD岗位，一个是支付公司的企业销售。两个都在二轮阶段，还没有offer。\n\nBitmain是我的第一选择，原因我已经说过了。如果拿到有竞争力的offer，我会立即接受并退出其他流程。我不是在用Bitmain做杠杆。\n\n入职时间。 我可以给Foxx两周的干净交接。如果Bitmain有迫切需要比如展会或重点客户kickoff，我可以压缩到一周，交接会稍微赶一点。两周是我更希望的方案，但灵活度我也留着。",
+        "answer": "【在谈机会】\n\n老实告诉你，我目前确实在谈另外两个机会，都在二轮阶段还没有offer：\n\n一家美国本土ICT分销商的类似BD岗位\n\n一家支付公司的企业销售岗位\n\n但Bitmain是我的第一选择，原因我前面已经说过——行业地位、技术挑战、能力迁移度。如果拿到有竞争力的offer，我会立即接受并主动退出其他两个流程。我不是在用Bitmain做杠杆，也不会用其他offer来压价。\n\n【入职时间】\n\n标准方案：给Foxx两周的干净交接，第15天报到。\n\n两周内我可以做到：\n\n现有客户pipeline的书面handover文档\n\nT-Mobile、Best Buy等关键客户向接手的同事正式介绍\n\n未结案的合同/订单进度同步给团队\n\n加速方案：如果Bitmain有迫切需要——比如某个大型展会临近、或者要赶在Q1末关一个大客户的kickoff——我可以压缩到一周，交接稍微赶一点但没问题。\n\n推荐节奏：两周是更负责任的方案。我不希望用一个不干净的离职在新公司留下\"为了赶进度抛弃前雇主\"的印象——这种印象在销售岗反而是减分项。\n\n【时间灵活度】\n\n签约后到入职的时间窗口我可以用来做几件事：读完Bitmain产品spec sheets、补完top 10公众矿企最新季报、提前画几个目标账户的account map。这样第一天进公司就能直接进入对话，不用花两周\"找文档\"。",
         "qtype": "B",
-        "charCount": 233
+        "charCount": 583
       }
     ]
   },
@@ -266,17 +266,17 @@ export const modules = [
         "id": "m6-2",
         "num": 25,
         "title": "为什么J/TH重要？Bitmain各产品的数字是什么？",
-        "answer": "J/TH — 每TH的焦耳 — 是机器每生产一个TH/s所消耗的电量。越低越好。\n\n速查表：\n\n十年进步约10倍。\n\n商业上为什么重要。 电费在工业规模占运营成本70-85%。100 MW site从25 J/TH换到10 J/TH，每BTC的生产成本降低约60%。在当前hashprice和BTC价格下，这是亏损和盈利的差别 — 字面意义上是继续运营和关机的差别。\n\n对CFO销售时，J/TH和电价是两个关键变量，其他都是噪音。",
+        "answer": "【定义】\n\nJ/TH = 每TH的焦耳 = 机器每生产1 TH/s消耗多少电。这是矿机最重要的单一指标。越低越好。\n\n【Bitmain主力产品速查】\n\nS23 Hydro 3U：9.5 J/TH（水冷旗舰，1.16 PH/s）\n\nS23 风冷：11 J/TH（318 TH/s）\n\nS21 XP Hydro：12.7 J/TH（473 TH/s）\n\nS21 XP：13.5 J/TH（270 TH/s）\n\nS21 Pro：15 J/TH（234 TH/s）\n\nS21 基准：17.5 J/TH（200 TH/s）\n\nS19 XP（老一代顶配）：21.5 J/TH\n\nS19j Pro+（老一代主力）：27.5 J/TH\n\n十年进步约10倍——S9（2016）的~110 J/TH到S23 Hydro的9.5 J/TH。\n\n【商业上为什么这一个数字最重要】\n\n电费成本占工业规模挖矿运营成本的70-85%。一个具体的换算：\n\n100 MW site从25 J/TH换到10 J/TH → 算力提升约2.5倍但电费不变\n\n每BTC生产成本下降约60%\n\n在当前hashprice $36/PH/day和BTC $68-75K的环境下，这是亏损vs盈利的分水岭——字面意义上是继续运营和关机的差别\n\n【在销售对话中怎么用】\n\n面对CFO时，我把对话锁定在两个变量：J/TH和电价（$/kWh）。其他都是次要噪音。\n\n标准动作：拿出客户的电价，套用Bitmain产品矩阵，算出三种配置（S21 Pro / S23风冷 / S23 Hydro）的5年NPV，让数据自己说话——不是\"我们的产品好\"，而是\"在你$0.045/kWh的电费下，S23 Hydro的5年现值比S21 Pro多$X百万\"。\n\n竞品对比：MicroBT M79S Hydro是14.81 J/TH。S23 Hydro的9.5 J/TH意味着同样电力下多产出约56%的算力——这是关键deal的杀手数字。",
         "qtype": "T",
-        "charCount": 215
+        "charCount": 832
       },
       {
         "id": "m6-3",
         "num": 26,
         "title": "为什么要选水冷？TCO怎么算？",
-        "answer": "水冷前期贵，需要不同的site基建，但在三种场景下赢lifetime TCO。\n\n高温或高密度。 风冷在35°C环境温度以上降频。Texas夏天推风冷机throttle或故障。水冷不受环境温度影响因为热量通过液体传递。全年hashrate稳定。\n\n功率密度。 水冷每平方英尺算力比风冷多40-50%。10 MW水冷厅比同样占地的风冷多很多TH。\n\n维护和生命周期。 无风扇=无风扇故障 — 风冷fleet头号服务项。Bitmain水冷线标注6+年生命周期；S23 Hydro 3U附带7年保修。\n\n适合的客户。 大型公众矿企的greenfield、热气候运营商、5年以上持有计划、在乎噪音的 — 水冷约50 dB vs 风冷75+。\n\n不适合的客户。 小型运营商、翻新进existing风冷hall、没法摊销水冷capex的。\n\n销售对话是5年NPV对比S23 air 11 J/TH vs S23 Hydro 9.5 J/TH，在客户具体的电费和hashprice projections下。让数据来选。",
+        "answer": "【一句话总结】\n\n水冷前期capex高、需要不同的site基建，但在三种场景下赢lifetime TCO，是大型greenfield的默认选择。\n\n【水冷赢的三个场景】\n\n高温/高密度环境：风冷机在35°C环境温度以上开始降频。Texas夏天连续高温周期，风冷机throttle甚至宕机；水冷通过液体把热量直接带走，不受环境温度影响——全年hashrate稳定。\n\n功率密度：水冷每平方英尺算力比风冷多40-50%。10 MW水冷厅装的TH远超同占地的风冷厅。土地和电力基建越贵，水冷优势越大。\n\n维护和生命周期：水冷无风扇 = 无风扇故障，而风扇是风冷fleet的头号服务项目。Bitmain水冷线官方生命周期6年以上；S23 Hydro 3U附带7年保修。\n\n额外卖点：水冷约50 dB噪音 vs 风冷75+ dB——靠近社区的site这是关键合规变量。\n\n【TCO（5年总拥有成本）的算法】\n\n5年TCO = 机器capex + 5×年电费 + 5×年O&M + site基建摊销 - 5年BTC产出收入\n\n关键投入变量：\n\n效率（J/TH）：S23 Hydro 9.5 vs S23风冷 11 → 水冷15%更省电\n\n电价（$/kWh）：客户具体合约价，Texas通常$0.04-$0.06\n\nUptime（%）：水冷~99%+，风冷热季节~93-95%\n\nHashprice轨迹：用客户自己的projection或Hashrate Index 12个月forward曲线\n\n持有时长：5年标准，水冷7年也常见\n\n【一个具体例子】\n\n10 MW site，电价$0.05/kWh，hashprice $36/PH/day（保守）：\n\nS21 Pro风冷（15 J/TH）：5年NPV约$X\n\nS23 Hydro（9.5 J/TH）：5年NPV约$X + 30-40%\n\n超出capex差额的回收期通常在18-24个月内。\n\n【适合 vs 不适合的客户】\n\n适合：大型公众矿企的greenfield、热气候运营商、5年+持有计划、在乎噪音/邻居关系的site\n\n不适合：小型运营商capex紧张、翻新进existing风冷hall没有水冷基建、计划2-3年内退役机器的\n\n【销售对话的标准动作】\n\n不直接rec水冷或风冷，而是带着客户的电价、hashprice假设、持有时长，现场建S23风冷 vs S23 Hydro的5年NPV模型——让数据自己挑SKU。这种approach比spec sheet更能赢CFO。",
         "qtype": "T",
-        "charCount": 453
+        "charCount": 1060
       },
       {
         "id": "m6-4",
@@ -387,73 +387,73 @@ export const modules = [
         "id": "m7-1",
         "num": 39,
         "title": "团队结构和岗位缘起",
-        "answer": "中文： “目前北美团队规模和结构是什么样？这个是新岗位还是替换岗位？如果是替换，上一个人怎么离开的——升职、主动离开、还是绩效？如果是新岗位，是什么gap催生的？还有——为什么现在招人而不是早半年或晚半年？”\n\n为什么问： 告诉你是走进一个growth seat还是burned-out seat。也显示经理怎么think about team construction。",
+        "answer": "【要问的问题】\n\n\"目前北美团队规模和结构是什么样的？这个岗位是新增的还是替换的？\n\n如果是替换：上一个人是怎么离开的——升职、主动离开、还是绩效原因？\n\n如果是新岗位：是什么具体的gap催生了这个seat？\n\n还有一个问题——为什么是现在招人？而不是早半年或晚半年？\"\n\n【为什么这样问】\n\n这个问题在90秒内告诉你三件你急需知道的事：\n\n你是走进一个growth seat还是burned-out seat\n\n经理怎么思考team construction——是有规划地扩张，还是临时补窟窿\n\n这个岗位是被动开的（救火），还是主动开的（抓窗口）\n\n【从答案里听什么】\n\n绿灯：\"我们去年成立了北美团队，今年Q2加这个岗位是因为公众矿企的pipeline增长太快\" → growth seat\n\n黄灯：\"上一个人去做托管业务了\" → 还行，但要追问为什么\n\n红灯：\"上一个人合同到期没续\" / \"上一个rep做了8个月就走了\" → burnout风险，问\"团队过去2年的rep平均tenure是多少？\"\n\n【后续问】\n\n如果是新岗位：\"这个岗位的success在2026年底应该长什么样？\"\n\n如果是替换：\"上一个人最大的成就和最大的struggle是什么？我可以从他们的experience学到什么？\"",
         "qtype": "R",
-        "charCount": 186
+        "charCount": 553
       },
       {
         "id": "m7-2",
         "num": 40,
         "title": "Quota和提成",
-        "answer": "中文： “2026年这个岗位的季度和年度quota是多少？Revenue-based、margin-based、还是blended？提成结构是flat、tiered、还是超额有accelerators？新logo和expansion有不同kicker吗？顶级表现者OTE和中等水平分别多少？去年团队有多少比例hit了quota？”\n\n为什么问： 揭示comp reality和team baseline。如果去年50%以下hit quota，quota probably unrealistic或team under-ramped。",
+        "answer": "【要问的问题】\n\n\"2026年这个岗位的季度和年度quota分别是多少？\n\nRevenue-based、margin-based、还是blended？\n\n提成结构是flat、tiered、还是超额有accelerators？\n\n新logo和existing account expansion有不同的kicker吗？\n\n顶级表现者的OTE是多少？中等水平的实际拿到手是多少？\n\n去年团队有多少比例的rep hit了quota？\"\n\n【为什么这样问】\n\n揭示comp reality和team baseline。这是签字前必须搞清楚的——offer letter上的OTE和实际能拿到的可能差50%。\n\n【从答案里听什么】\n\n绿灯：\"去年团队70%+ hit quota，顶级rep做到OTE 1.4-1.6倍\" → 健康，quota set realistic\n\n黄灯：\"我们刚set了2026新quota还在ramp\" → 不算坏，但要问历史baseline\n\n红灯：\"去年30%以下hit quota\" → quota probably unrealistic，或team under-ramped，或territory分配有问题——这种岗位即使你能力强也很难拿OTE\n\n【后续问】\n\n\"提成什么时候支付——签合同时、客户付款时、还是设备交付时？\"——交付cycle长的话这个差很大\n\n\"有claw-back条款吗？\"——客户取消订单提成会被追回吗\n\n\"过去12个月，有没有大deal跨quarter关闭，跨quota周期处理是怎么算的？\"",
         "qtype": "R",
-        "charCount": 266
+        "charCount": 672
       },
       {
         "id": "m7-3",
         "num": 41,
         "title": "汇报关系和决策权限",
-        "answer": "中文： “这个岗位直接向谁汇报——美国还是中国？决策权限的边界——到什么deal size或商务让步我需要HQ审批vs本地权限？产品优先级怎么work？如果客户要个feature，谁决定roadmap？”\n\n为什么问： 中国HQ美国销售岗位的头号frustration是decision-authority gap。如果over $1M都去北京，结构性问题。签之前test。",
+        "answer": "【要问的问题】\n\n\"这个岗位直接向谁汇报？美国还是中国HQ？\n\n决策权限的边界——到什么deal size或商务让步，我需要HQ审批 vs 本地权限？\n\n定价灵活度——折扣、付款条款、BTC质押，哪些我可以本地decide？\n\n产品优先级怎么work？如果一个大客户要一个feature，谁决定roadmap？\n\nHQ的响应时间——典型一个deal-critical问题需要多久回？\"\n\n【为什么这样问】\n\n中国HQ + 美国销售岗位的头号frustration是decision-authority gap。如果$1M以上都要去北京，那就是结构性问题——你会眼睁睁看着deal slip因为审批走不动。这是必须签字前test的。\n\n【从答案里听什么】\n\n绿灯：\"$5M以下你完全本地decide，$5M+和HQ co-sign。HQ典型48小时内回复\" → healthy authority\n\n黄灯：\"看情况，每个deal单独讨论\" → 模糊 = 实际操作起来你会被卡\n\n红灯：\"所有定价都要HQ approve\" / \"产品roadmap我们没有input\" → 你只是个order taker，不是strategic rep\n\n【后续问】\n\n\"上一个rep最近一次和HQ在定价/优先级上的分歧，最后怎么解决的？\"——这个具体例子比抽象答案有价值10倍\n\n\"我有没有微信直接联系产品/工厂/法务的key counterpart？\"——直通渠道是关键",
         "qtype": "R",
-        "charCount": 187
+        "charCount": 627
       },
       {
         "id": "m7-4",
         "num": 42,
         "title": "未来12个月的目标客户",
-        "answer": "中文： “未来12个月Bitmain最想赢或expand的北美top 5-10客户是哪些？我们在哪里strong、weak、contested？这些里哪些会primary归我？哪些shared with other reps或regional teams？有历史上难打的账户吗——乐观进去之前我想理解为什么。”\n\n为什么问： 揭示经理有没有strategy vs winging it。如果他说”we haven’t thought about it”，red flag。",
+        "answer": "【要问的问题】\n\n\"未来12个月Bitmain最想赢或expand的北美top 5-10客户是哪些？\n\n我们在哪些客户strong、哪些weak、哪些contested？\n\n这里面哪些会primary归我？哪些shared with其他reps或regional teams？\n\n有历史上难打的账户吗——比如长期100% MicroBT的？我想理解为什么，避免乐观进去栽跟头。\n\n这些目标客户里，哪些已经在active conversation，哪些是cold？\"\n\n【为什么这样问】\n\n揭示经理有没有strategy vs winging it。一个有想法的manager能在30秒内说出top 5和每个的状态。如果他support pause、looks at his notes、说\"我们还没really thought about it\"——red flag，你会进去后自己摸黑找客户。\n\n【从答案里听什么】\n\n绿灯：经理直接说出top 10名字、每个的状态、competitive position、share-of-wallet → 战略思考清楚\n\n黄灯：能说出top 3-5但其他模糊 → 还行，但你要主动补\n\n红灯：\"你来定义你的territory\" → 听起来像\"自由\"，实际上是没有规划\n\n【后续问】\n\n\"这些top 5客户里，最近6个月最大的进展和最大的setback分别是什么？\"\n\n\"哪些客户上一个rep没能进入但你认为可以打开的？\"\n\n\"我能不能在头30天之内见到top 3客户的key contact？\"——如果不能 = access问题",
         "qtype": "R",
-        "charCount": 236
+        "charCount": 684
       },
       {
         "id": "m7-5",
         "num": 43,
         "title": "托管合作伙伴网络",
-        "answer": "中文： “目前北美托管合作伙伴网络是什么样？我们和哪些运营商合作，结构如何？我们在哪些geography覆盖弱？Bitmain自己的托管策略怎么evolving——扩张自营托管、深化partner网络、还是两者？”\n\n为什么问： 托管是bundle收入复利的地方。Weak NA hosting partnerships让bundle pitch更难。",
+        "answer": "【要问的问题】\n\n\"Bitmain目前在北美的托管合作伙伴网络是什么样？\n\n我们和哪些托管运营商合作，是什么样的commercial结构——referral、revenue share、joint pitch？\n\n地理覆盖上我们在哪些州/地区弱？\n\nBitmain自己的托管战略怎么evolving——扩张自营托管、深化partner网络、还是两者并行？\n\n如果客户问'我有100台S23但没有site'，今天的标准答案是什么？\"\n\n【为什么这样问】\n\n托管是Bitmain bundle收入复利的核心地方——硬件+托管+O&M+ANTPOOL，每个客户从transactional变partnership。Weak NA hosting partnerships会让bundle pitch没武器，每次都只能裸卖硬件竞价。\n\n【从答案里听什么】\n\n绿灯：\"我们和Compass、Frontier、Riot Hosting有active partnerships，覆盖Texas/NY/Dakota，可以one-stop交付\" → 强\n\n黄灯：\"还在build托管partner网络\" → 你需要进去后帮着build\n\n红灯：\"客户site自己解决\" → bundle能力为零，竞争对手会赢hosting-bundled deals\n\n【后续问】\n\n\"我们和ANTPOOL在销售层面是coordinated还是siloed？\"\n\n\"BTC质押和discount定价工具我可以怎么和托管bundle在一起？\"\n\n\"有没有给托管partner的reference customer list我可以引用？\"",
         "qtype": "R",
-        "charCount": 176
+        "charCount": 700
       },
       {
         "id": "m7-6",
         "num": 44,
         "title": "美国工厂部署和销售意义",
-        "answer": "中文： “TX或FL的美国工厂——ramp目前在哪？今天怎么在客户对话中positioning？2026 NA orders我们expected多少%从美国生产vs进口？任何operational specifics在我向客户pitch时应该know？”\n\n为什么问： Signals你paying attention to biggest strategic development。也帮你calibrate how aggressively to sell US factory story in first weeks。",
+        "answer": "【要问的问题】\n\n\"Texas或Florida的美国工厂——ramp目前到哪了？\n\n今天我们怎么在客户对话中positioning这个工厂？\n\n2026年北美订单预期多少%来自美国生产 vs 中国进口？\n\n美国工厂的产品矩阵覆盖哪些SKU——只有S23还是包含S21线？\n\n有什么operational specifics——交期、价格premium、最小订单——是我向客户pitch时应该know的？\n\n如果客户specifically要求美国生产的units，我能lock in多少percent？\"\n\n【为什么这样问】\n\n美国工厂是Bitmain 2026最重要的commercial差异化——signals关税缓冲、政治风险降低、本地support。问得好signals你paying attention to战略发展，也calibrate你前几周向客户pitch这个故事的aggressiveness。\n\n【从答案里听什么】\n\n绿灯：\"Q2 2026开始首批生产，年底满产50% NA orders来自美国，list price和中国生产持平\" → 武器ready\n\n黄灯：\"还在ramp，不能commit具体百分比\" → 谨慎pitch\n\n红灯：\"工厂概念性的，2027才有real output\" → 不要over-promise客户\n\n【后续问】\n\n\"这个工厂故事在哪些类型客户面前最effective——F1000、政治敏感的公众矿企、还是合规重点客户？\"\n\n\"有没有Irene Gao或其他高管在媒体上对工厂的quotable语言我可以借用？\"",
         "qtype": "R",
-        "charCount": 263
+        "charCount": 682
       },
       {
         "id": "m7-7",
         "num": 45,
         "title": "关税和合规支持",
-        "answer": "中文： “Bitmain目前在US-China trade compliance上的posture是什么？谁handle关税和合规问题？有trade compliance function我可以escalate复杂客户问题吗？2026有任何active or expected regulatory developments？”\n\n为什么问： 显示你think like strategic rep，不是quota-chaser。",
+        "answer": "【要问的问题】\n\n\"Bitmain目前在US-China trade compliance上的overall posture是什么？\n\n谁handle关税分类、HTS coding、export control的实际工作？\n\nLiberation Day关税对挖矿设备的实际有效税率是多少？\n\n是否有专门的trade compliance function我可以escalate复杂客户合规问题（KYC、source-of-funds、OFAC sanctions screening）？\n\n2026年有什么active或预期的regulatory developments我应该跟踪？\n\n如果客户法务团队来一份20页的compliance questionnaire，我能在多少天内拿到完整答案？\"\n\n【为什么这样问】\n\n显示你think like strategic rep而不是quota-chaser。F1000和大型公众矿企的procurement team会问深度合规问题，你必须有HQ的compliance backbone才能赢这种deal。\n\n【从答案里听什么】\n\n绿灯：\"我们有专门的trade compliance team在Beijing和US Counsel在DC，48-72小时回复客户合规问询\" → strong support\n\n黄灯：\"个案处理\" → 你会被客户合规问题压垮\n\n红灯：\"你处理\" → 没有compliance backbone的销售=不能赢F1000\n\n【后续问】\n\n\"我能不能在第一个月见一次Bitmain合规负责人，建立直通渠道？\"\n\n\"有没有应对'参议员Warren公开点名'类型问题的标准response template？\"",
         "qtype": "R",
-        "charCount": 215
+        "charCount": 742
       },
       {
         "id": "m7-8",
         "num": 46,
         "title": "AI转型应对和Sophon",
-        "answer": "中文： “客户pivot到AI时，Bitmain怎么think about commercial relationship？Sophon和ANTMINER销售是coordinated还是siloed？如果BTC客户想讨论AI，我stay in relationship还是hand off to Sophon specialist？战略view是Bitmain becoming compute-infrastructure公司还是staying mining-focused？”\n\n为什么问： 揭示Bitmain自己在年度最大市场问题上的strategic coherence。",
+        "answer": "【要问的问题】\n\n\"客户pivot到AI/HPC时，Bitmain怎么think about commercial relationship？\n\nSophon产品线和ANTMINER销售在团队层面是coordinated还是siloed？\n\n如果一个BTC客户想严肃讨论AI infrastructure，我应该stay in the relationship and bring Sophon expertise，还是hand off to Sophon specialist？\n\n提成怎么算？如果我介绍一个AI deal给Sophon team，我有没有split？\n\nBitmain的5年战略view——becoming compute-infrastructure公司，还是staying mining-focused with Sophon as side bet？\"\n\n【为什么这样问】\n\nAI转型是2026挖矿行业最大的市场问题——摩根大通预测2026年底大型公众矿企最多70%收入来自AI/HPC合约。这个问题揭示Bitmain自己在这个问题上的strategic coherence。如果Bitmain没有AI strategy，每丢一个客户pivot到AI就是丢一个5-7年关系。\n\n【从答案里听什么】\n\n绿灯：\"Sophon和ANTMINER销售有split commission结构，鼓励cross-sell。战略上Bitmain正在becoming dual-purpose compute公司\" → strategic clarity\n\n黄灯：\"还在figure out\" → 你会在客户对话里被动\n\n红灯：\"那是Sophon team的事，你focus mining\" → 你会丢掉AI-pivoting客户\n\n【后续问】\n\n\"过去12个月有没有客户成功把ANTMINER+Sophon bundled buy的案例？\"\n\n\"如果客户问'你们能deliver像CoreWeave那样的GPU compute吗？'，今天的诚实答案是什么？\"",
         "qtype": "R",
-        "charCount": 290
+        "charCount": 884
       },
       {
         "id": "m7-9",
         "num": 47,
         "title": "30-60-90-180-365和陷阱问题",
-        "answer": "中文： “最后一个问题——30天、90天、6个月、12个月成功的定义是什么？早期activity metrics重要什么，中期pipeline metrics什么，12个月revenue by month几何？还有——这个岗位前6个月最容易做错的high-risk事是什么？我想知道陷阱好避开。”\n\n为什么问： 面试结束强势。显示你think in milestones。“trap”问题disarming — 面试官rarely被问这个，答案告诉你很多real role challenges。",
+        "answer": "【要问的问题（用这个收尾）】\n\n\"最后一个问题——\n\n你怎么定义30天、90天、6个月、12个月的success？\n\n早期我应该focus哪些activity metrics？中期看什么pipeline metrics？12个月时revenue by month的expectation是什么？\n\n还有——这个岗位前6个月最容易做错的high-risk的事是什么？我想知道陷阱好提前避开。\"\n\n【为什么这样问】\n\n面试结束以strong收尾。三个效果：\n\n显示你think in milestones——这是Bitmain希望看到的rep的mindset\n\n\"trap\"问题非常disarming——大多数面试官从来没被问过这个，答案会告诉你很多关于这个role的真实挑战\n\n表现你已经在思考onboarding，不是\"是否拿offer\"\n\n【从答案里听什么】\n\n绿灯：\"30天内见top 5客户，90天pipeline $20M，6个月first deal close，12个月hit quota\" + \"陷阱是不要在第一个月就过度承诺roadmap features\" → 思考清楚\n\n黄灯：\"你有6个月ramp\"——好但太宽泛，要追问月度milestone\n\n红灯：\"你来定义你的success\" → 没有明确expectation = 你后面会被retroactively判断\n\n【这是最后一题，用这句话收尾】\n\n\"感谢——今天真的是一个useful conversation。我对这个机会非常感兴趣。\n\nWhat are the next steps, and when should I expect to hear back?\n\n如果有帮助，我很乐意为[你提到的那个具体客户]put together一个one-page account strategy，下一轮我们可以一起走一遍。\"\n\n这句话做三件事：直接表态兴趣 + 问timeline不闪躲 + 主动加码作业为下一轮抢占preference。",
         "qtype": "R",
-        "charCount": 248
+        "charCount": 856
       }
     ]
   },
@@ -500,9 +500,9 @@ export const modules = [
         "id": "m8-5",
         "num": 52,
         "title": "讲一次你在压力下错过目标",
-        "answer": "PayPal Q4 2022差12%。前10月还118%达标，然后集成延期、商户换帅、宏观放缓三连击。12月中已经无力挽回。\n\n我的动作。 早承认 — 12月第三周告诉经理哪些deal slip为什么 → 转Q1准备 — 不追不可能的December close，booking Q1 meetings → 自我校准 — 运气vs执行的比例，owning执行部分(应该build 3x pipeline coverage) → Accountability对话 — 主动要manager对miss的feedback。\n\n结果： Q1 2023做到126%，把miss补回来。\n\n三个教训： 3x pipeline coverage不是1.5x；早通信miss不晚通信；自己心里分清运气vs执行。",
+        "answer": "【Situation】\n\nPayPal 2022年Q4，我miss了quota 12%。这是我整个PayPal任期里唯一一次没达标。\n\n背景对比：前10个月我一直在118%达标，Q3末甚至被列入President's Club候选。所以Q4的miss不是渐进的——是一次硬着陆。\n\n【Task & 触发因素】\n\n11月到12月初遇到了三连击：\n\n最大deal的技术集成延期：一个$3M ARR的marketplace客户的集成被推到Q1，他们工程团队决定在holiday冻结前不上线\n\n第二大deal客户换帅：CFO中途离职，新CFO要重新评估所有vendor合同，原本签好的SOW被hold\n\n宏观放缓：12月初Fed加息+商户Q4 GMV低于预期，多个pipeline deal客户主动要求推迟到Q1\n\n12月15日左右我已经清楚——这个quarter没救了。\n\n【Action：我做了四件事】\n\n早承认：12月第三周直接告诉manager具体哪些deal slip了、为什么、commit数字会差多少。我没有等到quarter结束才报。\n\n转Q1准备：不浪费时间追不可能close的December deal。把那个时间用来book 1月Q1的discovery会议，提前做pipeline。\n\n自我校准：诚实拆分运气 vs 执行——三个事件中，集成延期和CFO换帅是真的运气，但宏观放缓不能算意外，我应该build 3x pipeline coverage而不是1.5x。我owns这部分。\n\nAccountability对话：主动找manager约30分钟，请他对我的miss给feedback——不是辩解，是\"接下来怎么做不同\"。\n\n【Result】\n\nQ1 2023做到126%，把Q4的miss补回来。年度合算还是105%。\n\n那两个slip的deal里有一个在Q1 close了，另一个的客户因为我Q4 transparent communication继续trust me，6个月后扩大了订单。\n\n【三个教训（我会带到Bitmain）】\n\n3x pipeline coverage不是1.5x：销售圈的标准是2.5-3x，我之前用1.5-2x是因为转化率高觉得安全。但意外不打招呼。Bitmain mining cycle更unpredictable，我会一开始就上3x。\n\n早通信miss > 晚通信miss：manager痛恨surprise。早一周告知、坦诚原因、给出补救计划，远好过quarter结束才报。\n\n分清运气vs执行：复盘时不要把一切归运气，也不要把一切归自己。诚实拆分是下一次improve的唯一路径。",
         "qtype": "B",
-        "charCount": 347
+        "charCount": 1121
       },
       {
         "id": "m8-6",
@@ -533,9 +533,9 @@ export const modules = [
         "id": "m9-2",
         "num": 55,
         "title": "公众矿企 vs 私营矿企采购 — 有什么不同？",
-        "answer": "公众矿企。 委员会驱动，季度预算周期。10-Q披露capex，所以我可以在funding events上timing outreach。决策流程：COO、CFO、procurement、有时外部顾问。正式RFQ — 他们预期Bitmain、MicroBT、有时Auradine的竞争报价。Heavy法务审核。付款：通常30%定金，70%交付，USD wire。周期3-9个月。纪律赢 — 响应速度、准确时间线、clean paperwork。\n\n私营矿企。 创始人驱动。一两个决策人。如果创始人被说服，从intro到PO可以4-6周。风险更高 — 更小的资产负债表、偶尔有结构性付款或USDT请求、BTC回撤时更高的cancellation风险。关系驱动。你通过在site planning时在场、被其他私营运营商reference、在条款上有弹性来赢得信任。\n\n战术含义。 公众矿企销售需要process和patience。私营矿企销售需要network和speed。强的rep用不同节奏并行跑两个动作。",
+        "answer": "【一句话】\n\n这是两种完全不同的销售动作——公众矿企靠process和patience赢，私营矿企靠network和speed赢。\n\n【公众矿企（MARA、RIOT、CLSK等）】\n\n决策模式：委员会驱动，季度预算周期\n\n决策人：COO + CFO + procurement，有时外部顾问参与\n\n采购流程：正式RFQ，预期Bitmain、MicroBT、有时Auradine的竞争报价\n\n法务深度：heavy审核，合同走3-5轮\n\n付款条款：典型30%定金 / 60%发货前 / 10%交付确认，USD wire\n\nTicket规模：$30M-$300M\n\n销售周期：3-9个月\n\nOutreach timing：可以利用10-Q披露的capex schedule，在funding events后timing pitch\n\n赢的关键：纪律——响应速度、准确时间线、clean paperwork、合规文档齐全\n\n常见陷阱：低估法务来回需要的时间，paperwork不专业被procurement直接淘汰\n\n【私营矿企（PE-backed、family office、混合运营商）】\n\n决策模式：创始人驱动\n\n决策人：通常1-2人——创始人 + COO\n\n采购流程：往往跳过formal RFQ，直接谈判\n\n法务深度：简化版——MSA可能就5-10页\n\n付款条款：更多变种——50/50、structured payments、偶尔有USDT请求\n\nTicket规模：$5M-$50M\n\n销售周期：4-6周（如果创始人被说服）到3个月\n\n风险因素：更小资产负债表、BTC回撤时更高cancellation风险\n\n赢的关键：网络——其他私营运营商的reference、在site planning阶段在场、条款灵活度\n\n常见陷阱：assume付款会按合同走，没有enforce hard deposits\n\n【对比表（一句话总结）】\n\n维度：公众矿企 / 私营矿企\n\n决策：委员会 / 创始人\n\n周期：3-9个月 / 4周-3个月\n\n关键武器：process + patience / network + speed\n\n付款风险：低（USD wire、合规） / 中-高（structure变化大）\n\n关系深度：rep × procurement / rep × 创始人\n\n【战术含义】\n\n强的rep用不同节奏并行跑两个动作。\n\n公众矿企：early Q季度start outreach、Q1-Q2推进、Q3-Q4 close\n\n私营矿企：随时机会出现就推、节奏快、能在公众矿企的slow gap里填收入\n\n70%时间给公众矿企（确定性收入），20%给私营矿企（速度补quota），10%给对冲基金/F1000（长期布局）。",
         "qtype": "S",
-        "charCount": 453
+        "charCount": 1162
       },
       {
         "id": "m9-3",
