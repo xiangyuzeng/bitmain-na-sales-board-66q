@@ -11,6 +11,31 @@ export const QTYPE = {
 
 export const modules = [
   {
+    "id": "mod0",
+    "name": "市场背景速查",
+    "color": "#0F172A",
+    "icon": "📌",
+    "description": "面试前必背：标杆deal·关键人物·活动·2026年4月市场·产品矩阵·美国工厂",
+    "cards": [
+      {
+        "id": "m0-1",
+        "num": 0.1,
+        "title": "速查·近期标杆Deal·关键人物·行业活动",
+        "answer": "【值得引用的最近交易】\n\n- CleanSpark — $1.677亿，26,000台 S21 XP Immersion服务器 (2024年8月协议，2025年交付)。增加7.8 EH/s。$21.5/TH。这是大型公众矿企交易的标杆。\n- CleanSpark — 890 MW Texas扩张 (2026年1月)。Brazoria County的AI + BTC混合建设。\n- IREN — $97亿微软HPC协议 (2025年末)。AI转型交易标杆。\n- MARA — 15%裁员 (2026年初)。公众矿企承压的标杆。\n- Bitdeer、RIOT — 2025年末增加12 EH/s。继续扩张的反向趋势。\n\n【关键行业活动】\n\n- WDMS (World Digital Mining Summit) — Bitmain的旗舰活动。2025年版发布了S23 Hydro。\n- Bitcoin 2026 — 拉斯维加斯，通常在4月底/5月。大型行业聚会。\n- Mining Disrupt — 迈阿密，通常在5月/6月。挖矿专题。\n- Bitcoin MENA — 阿布扎比，通常在12月。MicroBT在此发布M79S。\n\n【关键人物】\n\n- Irene Gao (高轶然) — Bitmain全球业务总监。对外发声的核心人物。\n- Jihan Wu (吴忌寒)、Micree Zhan (詹克团) — Bitmain联合创始人。\n- Fred Thiel — MARA CEO。媒体活跃。\n- Matt Schultz / Zach Bradford — CleanSpark董事长 / CEO。\n- Zuoxing Yang (杨作兴) — MicroBT创始人兼CEO。前Bitmain工程师。\n- Jaran Mellerud、Ethan Vera、Nick Hansen — 矿业分析师，值得关注。\n\n【要嵌入每个主要答案的一句市场背景】\n\n\"这是一个非常特殊的入场时刻——客户需求正在两极分化：一边是需要最高效率才能活下来的幸存者，另一边是在把电力重新部署到AI的转型者。销售对话的方式必须因人而异。\"",
+        "qtype": "T",
+        "charCount": 912
+      },
+      {
+        "id": "m0-2",
+        "num": 0.2,
+        "title": "速查·2026年4月市场简报+产品矩阵+美国工厂",
+        "answer": "【比特币挖矿行业现状】\n\nBTC目前在高$60K到中$70K区间震荡，远低于2025年10月峰值$115-120K。全网算力约 1 zettahash/秒 (1,000+ EH/s)，难度创历史新高约135万亿。Hashprice约$36/PH/day，较10月峰值下跌约三分之二。\n\n摩根大通2026年1月估算行业平均生产成本 $77,000/BTC。最高效矿工（低于$0.05/kWh电费+最新一代ASIC）生产成本$34-43K。其余的都在亏损。这就是为什么公众矿企Q1 2026出售了创纪录的32,000+ BTC，MARA执行了15%裁员。\n\n战略现实：挖矿正在整合，AI/HPC转型加速。\n\n摩根大通预测，到2026年底，大型公众矿企最多70%的收入来自AI/HPC合约。IREN签了微软$97亿，Core Scientific通过CoreWeave深度转型，CleanSpark宣布890 MW Texas扩张。Bitmain销售的买家不再在扩张BTC算力 — 他们要么升级效率求生存，要么把电力重新部署到AI。\n\n【Bitmain产品矩阵】\n\n| 产品 | 算力 | 功耗 | 效率 | 冷却 | 发布 |\n| --- | --- | --- | --- | --- | --- |\n| S23 Hydro 3U (旗舰) | 1.16 PH/s | 11,020 W | 9.5 J/TH | 水冷 | 2026年1月 |\n| S23 (风冷旗舰) | 318 TH/s | 3,498 W | 11 J/TH | 风冷 | 2026年1月 |\n| S21 XP Hydro | 473 TH/s | 6,010 W | 12.7 J/TH | 水冷 | 2024 |\n| S21 XP Immersion | 300 TH/s | 4,050 W | 13.5 J/TH | 浸没 | 2024年10月 |\n| S21 XP (风冷) | 270 TH/s | 3,645 W | 13.5 J/TH | 风冷 | 2024 |\n| S21 Pro | 234 TH/s | 3,510 W | 15 J/TH | 风冷 | 2024年7月 |\n| S21 | 200 TH/s | 3,500 W | 17.5 J/TH | 风冷 | 2024 |\n| S19 XP / j Pro+ | 140 / 122 TH/s | — | 21.5 / 27.5 J/TH | 风冷 | 2022-23 |\n\n关键点：当被问到Bitmain产品时，首先提S23和S23 Hydro，不要提S21。S23是目前对MicroBT M79S的答案，也是当前销售重点。\n\n【MicroBT的对抗产品】\n\nMicroBT在Bitcoin MENA 2025推出 Whatsminer M79S Hydro：1.35 PH/s，14.81 J/TH，20 kW。原始算力比S23 Hydro 3U (1.16 PH/s) 高，但效率明显差（14.81 vs 9.5 J/TH）。这个效率差距是S23 Hydro销售的核心。M70S+风冷244 TH/s、12.5 J/TH是MicroBT对标S23的风冷产品 — 接近但仍落后。\n\n【美国工厂 — Bitmain最大的新卖点】\n\nBitmain于2025年7月宣布将在Texas或Florida开设首个美国工厂，Q3 2025选址，2026年初首批芯片生产，2026年底全面投产。全球业务总监Irene Gao将其定位为缩短美国客户的交货和维修时间，同时规避特朗普Liberation Day关税（10%基础+20%中国商品附加，2025年4月生效）。MicroBT和Canaan也在做同样的事 — 所以这是竞争平价，不是领先 — 但是美国工厂是你向美国机构买家最好的新话题，尤其是担心关税、供应链韧性、政治风险的客户。\n\n记住Irene Gao的名字。\n\n她是2025-26年美国工厂战略的官方代言人。提到她的名字说明你真的读过行业媒体。",
+        "qtype": "T",
+        "charCount": 1696
+      }
+    ]
+  },
+  {
     "id": "mod1",
     "name": "开场必答",
     "color": "#B71C1C",
