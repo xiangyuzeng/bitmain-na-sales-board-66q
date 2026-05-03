@@ -437,13 +437,14 @@ function renderBlock(lines, modColor) {
         continue;
       }
       // Single label line: render inline-styled.
+      // (i has already been advanced past this line by the while loop above — do NOT i++ again.)
       out.push(
         <p key={"sl"+i} style={{ fontSize: 13, lineHeight: 1.6, color: "#444", margin: "2px 0" }}>
           <span style={{ color: modColor, fontWeight: 600 }}>{t.split(/[：:]/)[0]}：</span>
           {t.split(/[：:]/).slice(1).join('：')}
         </p>
       );
-      i++; continue;
+      continue;
     }
 
     // Plain paragraph
